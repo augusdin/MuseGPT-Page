@@ -1,4 +1,16 @@
 {
+  "background_script_loading_tips":{
+    "message":"Waiting for the current page to finish loading...",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_text": {
+    "message": "The current page needs to be refreshed to use MuseGPT Page, ",
+    "description": "background_script"
+  },
+  "background_script_refresh_tips_refresh_btn": {
+    "message": "Click here to Refresh", 
+    "description": "background_script"
+  },
   "option_setup_openai_h1":{
     "message":"OpenAI",
     "description":"Setup-Setup-Interface"
@@ -439,6 +451,22 @@
     "message":"No operation performed",
     "description":"Toast component default state"
   },
+  "panel_enabled_youtube_popup_toast": {
+    "message": "Auto popup enabled on Youtube video pages",
+    "description": "popup-toast"
+  },
+  "panel_disabled_youtube_popup_toast": {
+    "message": "Auto popup disabled on Youtube video pages",
+    "description": "popup-toast" 
+  },
+  "panel_enabled_bilibili_popup_toast": {
+    "message": "Auto popup enabled on Bilibili video pages",
+    "description": "popup-toast"
+  },
+  "panel_disabled_bilibili_popup_toast": {
+    "message": "Auto popup disabled on Bilibili video pages",
+    "description": "popup-toast"
+  },
   "options_sider_setup":{
     "message": "Setup",
     "description": "Setup - Install"
@@ -584,11 +612,11 @@
     "description": "Settings-Installation-Interface"
   },
   "options_general_h1":{
-    "message": "General Settings",
+    "message": "Interface Settings",
     "description": "Settings-General-Interface"
   },
   "options_general_theme_label":{
-    "message": "Notion Authorization",
+    "message": "Theme Option",
     "description": "Settings-General-Interface"
   },
   "options_general_theme_label_tips":{
@@ -618,6 +646,62 @@
   "options_general_theme_save_btn":{
     "message": "Save",
     "description": "Settings-General-Interface"
+  },
+  "options_general_auto_subtitle": {
+    "message": "Auto Extract Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_tips": {
+    "message": "Control whether to try extracting video subtitles before generating video page summaries", 
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_youtube": {
+    "message": "Auto Get Youtube Video Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_youtube_tips": {
+    "message": "Try automatically getting subtitles before generating Youtube video summaries, which will slightly increase page summary generation time",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_bilibili": {
+    "message": "Auto Get Bilibili Video Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_bilibili_tips": {
+    "message": "Try automatically getting subtitles before generating Bilibili video summaries, which will slightly increase page summary generation time",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_save_success": {
+    "message": "Auto Extract Subtitle Settings Saved Successfully",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_label": {
+    "message": "Auto Popup",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_label_tips": {
+    "message": "Control whether to automatically popup panel and extract summary on specific pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_youtube_label": {
+    "message": "Youtube Video Pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_youtube_label_tips": {
+    "message": "Auto popup on Youtube video play pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_bilibili_label": {
+    "message": "Bilibili Video Pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_bilibili_label_tips": {
+    "message": "Auto popup on Bilibili video play pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_save_success": {
+    "message": "Auto Popup Settings Saved Successfully",
+    "description": "Settings - General - Interface"
   },
   "options_about_h1":{
     "message": "About MuseGPT Page",
@@ -736,7 +820,7 @@
     "description": "Initial Configuration"
   },
   "config_prompt_item1_content":{
-    "message": "As a webpage summarizer, summarize this video in {lan}, beginning with 'This video/page is about..' Then Follow these steps in Markdown format:/n### Key Content/nConsidering Bilibili video nature and user traits, list key points in {lan}. If subtitles are available, use them for summary. Don't include play data or just questions. Ignore irrelevant content./n### Highlights/nWith subtitles, list 3 top exciting time points and their content in {lan}./n### User Views/nSummarize interesting comments in {lan}./nAll responses should be in {lan} only. Give conclusions, no explanations.",
+    "message": "As a webpage summarizer,following request in markdown format:\n### overview\nsummarize what the video page is about in {lan} language\n### Key Points\nBased on the Bilibili user traits,Use {lan} to list key points.If subtitles are available,base summaries on them.Do not list play-related data.Aim to provide answers or descriptions\n### Highlights\nIf subtitles are available, use {lan} to list 3 top exciting time points and content\n### User Comments\nIf comments are present,summarize interesting views in {lan}.\nAll your Responses must be in {lan}. No other languages. Give conclusions, no no explain",
     "description": "Initial Configuration"
   },
   "config_prompt_item2_name":{
@@ -744,7 +828,7 @@
     "description": "Initial Configuration"
   },
   "config_prompt_item2_content":{
-    "message": "As a webpage summarizer, summarize this video in {lan}, beginning with 'This video/page is about..' Then Follow these steps in Markdown format:/n### Key Content/nConsidering YouTube video nature and user traits, list key points in {lan}. If subtitles are available, use them for summary. Don't include play data or just questions. Ignore irrelevant content./n### Highlights/nWith subtitles, list 3 top exciting time points and their content in {lan}./n### User Views/nSummarize interesting comments in {lan}./nAll responses should be in {lan} only. Give conclusions, no explanations.",
+    "message": "As a webpage summarizer,following request in markdown format:\n### overview\nsummarize what the video page is about in {lan} language\n### Key Points\nBased on the Youtube user traits,Use {lan} to list key points.If subtitles are available,base summaries on them.Do not list play-related data.Aim to provide answers or descriptions\n### Highlights\nIf subtitles are available, use {lan} to list 3 top exciting time points and content\n### User Comments\nIf comments are present,summarize interesting views in {lan}.\nAll your Responses must be in {lan}. No other languages. Give conclusions, no no explain",
     "description": "Initial Configuration"
   },
   "config_prompt_item3_name":{

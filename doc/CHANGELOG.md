@@ -5,13 +5,37 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- 
 
 ### Fixed
 - shadow dom 使用svg在某些站点导致冲突(待完成)
 
 ### Changed
-- 
+
+## [1.0.0-beta.4] - 2023-7-18
+
+### Added
+- Support for automatic pop-up on YouTube or Bilibili video pages to summarize video content (not set to auto-pop by default)
+- Automatic hiding of the panel when the video is in full screen
+- Ability to drag the panel window anywhere on the page
+
+### Fixed
+- Fixed the close button icon on the guide page
+
+### Changed
+- Changed from refreshing all open pages to prompting refresh when necessary
+- Optimized video-related default Prompts
+
+### Added
+- 支持在youtube或bilibili视频页自动弹出并对视频内容进行摘要(默认不自动弹出)
+- 视频全屏时候自动隐藏面板
+- 面板窗口可在页面上任意拖动
+
+### Fixed
+- 修复向导页的关闭按钮Icon
+
+### Changed
+- 将刷新所有已打开页面改为需要刷新页面时提示刷新
+- 优化视频相关默认Prmopt
 
 ## [1.0.0-beta.3] - 2023-7-13
 
@@ -31,8 +55,8 @@ All notable changes to this project will be documented in this file.
 - Optimized prompts for video websites' subtitles
 
 ### Added
-- 自动提取youtube视频字幕进行视频内容分析
-- 自动提取bilibili视频字幕进行视频内容分析
+- 自动提取youtube视频字幕进行视频内容摘要
+- 自动提取bilibili视频字幕进行视频内容摘要
 - 下载提取成功的youtube或bilibili字幕为srt文件
 - 增加页面加载中提示
 

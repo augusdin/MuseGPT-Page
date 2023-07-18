@@ -5,7 +5,7 @@
 <a href="">
     </a>
     <img alt="Chrome Extensions" src="https://img.shields.io/badge/Chrome%20Extensions-supported-brightgreen.svg">
-    <img alt="GitHub version" src="https://img.shields.io/badge/version-1.0.0.2-blue.svg">
+    <img alt="GitHub version" src="https://img.shields.io/badge/version-1.0.0.4-blue.svg">
     <img alt="Multilanguage" src="https://img.shields.io/badge/multilanguage-supported-blue.svg">
     <img alt="YouTube" src="https://img.shields.io/badge/YouTube-videos-red.svg">
     <img alt="Bilibili" src="https://img.shields.io/badge/Bilibili-videos-FB7299.svg">
@@ -14,13 +14,14 @@
     <img alt="Wikipedia" src="https://img.shields.io/badge/Wikipedia-information-6B6B6B.svg">
     <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey">
     
-
-<br><br>
+<br>
 
 <img width="500" src="./resource/show.gif"><br/>
 This is a Chrome extension that allows you to summarize and categorize the current page with a single click using OpenAI's ChatGPT API. With just one more click, you can save the summary and page information to your Notion table.
+The existing features will remain free permanently.
 
-一键用OpenAI ChatGPT对当前打开的页面内容进行提炼和自动分类,并一键整理保存页面信息到Notion表格中
+一键用OpenAI ChatGPT对当前打开的页面内容进行提炼和自动分类,并一键整理保存页面信息到Notion表格中.
+现有功能永久免费。
 
 <!-- [简体中文](https://github.com/receyuki/stable-diffusion-prompt-reader/blob/master/README.zh-Hans.md) | [English](https://github.com/receyuki/stable-diffusion-prompt-reader/blob/master/README.md) -->
     
@@ -53,6 +54,8 @@ Introducing a Chrome extension designed to expedite your webpage reading by rapi
 * Ability to set domain-specific Prompts
 * Editing of generated page summaries
 * Material UI
+* The summary panel can be dragged anywhere on the page
+* Supports configuring the summary panel to automatically pop up on Youtube and Bilibili video pages
 * Supports light and dark themes
 * Multilingual support
 
@@ -73,6 +76,8 @@ Introducing a Chrome extension designed to expedite your webpage reading by rapi
 * 可设置适配Prompt域名
 * 编辑生成的网页总结
 * Material UI
+* 摘要面板可在页面上任意拖动
+* 支持配置在Youtube和Bilibili视频页自动弹出摘要面板
 * 支持浅色、深色皮肤
 * 多语言支持
 

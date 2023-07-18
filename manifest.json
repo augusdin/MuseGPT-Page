@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Muse GPT Page",
-  "version": "1.0.0.3",
+  "version": "1.0.0.4",
   "default_locale": "en",
   "description": "Muse GPT Page",
   "permissions": [
@@ -14,9 +14,6 @@
     "service_worker": "src/pages/background/index.js",
     "type": "module"
   },
-  "host_permissions": [
-    "youtube.com"
-  ],
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
   },
@@ -37,14 +34,13 @@
     {
       "matches": [
         "http://*/*",
-        "https://*/*",
-        "<all_urls>"
+        "https://*/*"
       ],
       "js": [
         "src/pages/content/index.js"
       ],
       "css": [
-        "assets/css/contentStyle16892564606.chunk.css"
+        "assets/css/contentStyle16896720205.chunk.css"
       ]
     }
   ],

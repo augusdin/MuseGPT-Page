@@ -1,10 +1,93 @@
-function E(t){let e,o,n,s,a,c,i;return y(),{feed:f,reset:y};function y(){e=!0,o="",n=0,s=-1,a=void 0,c=void 0,i=""}function f(d){o=o?o+d:d,e&&S(o)&&(o=o.slice(w.length)),e=!1;const l=o.length;let r=0,h=!1;for(;r<l;){h&&(o[r]===`
-`&&++r,h=!1);let m=-1,u=s,p;for(let g=n;m<0&&g<l;++g)p=o[g],p===":"&&u<0?u=g-r:p==="\r"?(h=!0,m=g-r):p===`
-`&&(m=g-r);if(m<0){n=l-r,s=u;break}else n=0,s=-1;I(o,r,u,m),r+=m+1}r===l?o="":r>0&&(o=o.slice(r))}function I(d,l,r,h){if(h===0){i.length>0&&(t({type:"event",id:a,event:c||void 0,data:i.slice(0,-1)}),i="",a=void 0),c=void 0;return}const m=r<0,u=d.slice(l,l+(m?h:r));let p=0;m?p=h:d[l+r+1]===" "?p=r+2:p=r+1;const g=l+p,P=h-p,b=d.slice(g,g+P).toString();if(u==="data")i+=b?"".concat(b,`
+import{D as E}from"../../../assets/js/config.cdcd2794.js";function L(e){let o,t,r,n,a,c,s;return x(),{feed:y,reset:x};function x(){o=!0,t="",r=0,n=-1,a=void 0,c=void 0,s=""}function y(p){t=t?t+p:p,o&&P(t)&&(t=t.slice(_.length)),o=!1;const d=t.length;let i=0,h=!1;for(;i<d;){h&&(t[i]===`
+`&&++i,h=!1);let m=-1,u=n,l;for(let g=r;m<0&&g<d;++g)l=t[g],l===":"&&u<0?u=g-i:l==="\r"?(h=!0,m=g-i):l===`
+`&&(m=g-i);if(m<0){r=d-i,n=u;break}else r=0,n=-1;v(t,i,u,m),i+=m+1}i===d?t="":i>0&&(t=t.slice(i))}function v(p,d,i,h){if(h===0){s.length>0&&(e({type:"event",id:a,event:c||void 0,data:s.slice(0,-1)}),s="",a=void 0),c=void 0;return}const m=i<0,u=p.slice(d,d+(m?h:i));let l=0;m?l=h:p[d+i+1]===" "?l=i+2:l=i+1;const g=d+l,O=h-l,T=p.slice(g,g+O).toString();if(u==="data")s+=T?"".concat(T,`
 `):`
-`;else if(u==="event")c=b;else if(u==="id"&&!b.includes("\0"))a=b;else if(u==="retry"){const x=parseInt(b,10);Number.isNaN(x)||t({type:"reconnect-interval",value:x})}}}const w=[239,187,191];function S(t){return w.every((e,o)=>t.charCodeAt(o)===e)}const C={openAIModel:"gpt-3.5-turbo-16k",openAITemperature:.5,isFollowSystemTheme:!0,userChosenTheme:"light"},v=(t,e,o)=>{if(e.status==="complete"){O(o);const n=document.getElementById("musegpt-tips");n&&n.remove(),chrome.tabs.onUpdated.removeListener(v)}},N=()=>{if(!document.getElementById("musegpt-tips")){const e=document.createElement("div");e.style.top="10px",e.style.right="10px",e.style.position="fixed",e.style.zIndex="9999",e.id="musegpt-tips",e.style.backgroundColor="rgba(0, 0, 0, 0.7)",e.style.color="white",e.style.borderRadius="10px",e.style.padding="10px",e.style.transition="opacity 0.3s",e.style.opacity="0",e.style.boxShadow="0 0 10px rgba(128, 128, 128, 0.5)",e.style.display="flex",e.style.alignItems="center",e.style.justifyContent="center";const o=document.createElement("div");o.style.position="relative",o.style.display="flex",o.style.alignItems="center",o.style.justifyContent="center",o.style.marginRight="10px";const n=document.createElement("span");n.style.display="inline-block",n.style.width="20px",n.style.height="20px",n.style.border="1px solid white",n.style.borderTopColor="transparent",n.style.borderRadius="50%",n.style.animation="spin 1s linear infinite";const s=document.createElement("span");s.style.display="inline-block",s.style.width="20px",s.style.height="20px",s.style.border="1px solid rgba(255, 255, 255, 0.3)",s.style.borderRadius="50%",s.style.position="absolute",o.appendChild(n),o.appendChild(s),e.appendChild(o);const a=document.createElement("span"),c=document.createTextNode("Waiting for the current page to finish loading...");a.appendChild(c),e.appendChild(a),document.body.appendChild(e);const i=document.createElement("style");i.textContent=`
+`;else if(u==="event")c=T;else if(u==="id"&&!T.includes("\0"))a=T;else if(u==="retry"){const k=parseInt(T,10);Number.isNaN(k)||e({type:"reconnect-interval",value:k})}}}const _=[239,187,191];function P(e){return _.every((o,t)=>e.charCodeAt(t)===o)}const b={},C=(e,o,t)=>{o.status==="complete"&&(I(t),chrome.scripting.executeScript({target:{tabId:t.id},func:()=>{var r=document.getElementById("musegpt-tips");r&&r.remove()}}),chrome.tabs.onUpdated.removeListener(C))},A=(e,o,t)=>{o.status==="complete"&&(I(t,"popup-active-auto"),chrome.scripting.executeScript({target:{tabId:t.id},func:()=>{var r=document.getElementById("musegpt-tips");r&&r.remove()}}),chrome.tabs.onUpdated.removeListener(A))},S=()=>{if(document.getElementById("musegpt_reload_tips"))return;const e=document.createElement("div");e.id="musegpt_reload_tips";const o=document.createElement("style");o.innerHTML=`
+    .musegpt_close-btn {
+      cursor: pointer;
+      user-select: none;
+      margin-left: 15px;
+      height: 100%;
+      
+      // \u56FE\u6807
+      font-size: 16px; 
+      color: #ddd;
+  
+      // \u6269\u5927\u70B9\u51FB\u533A\u57DF  
+      padding: 8px;
+      
+      // \u4F7F\u7528\u5B9A\u4F4D\u548Ctranslate\u5C45\u4E2D
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .musegpt_close-btn:hover {
+      background: rgba(0,0,0,0.1);
+      color: #fff;
+    }
+
+    .musegpt_refresh-btn {
+      cursor: pointer;
+      color: rgba(255, 165, 0, 0.7);
+      text-decoration: none;
+    }
+
+    .musegpt_refresh-btn:hover {
+      color: rgba(255, 165, 0, 1);
+    }
+  `,e.style.cssText=`
+    position: fixed; 
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    padding: 13px 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(128,128,128,0.8);
+    z-index: 99999;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+  `,e.innerText=chrome.i18n.getMessage("background_script_refresh_tips_text");const t=document.createElement("span");t.className="musegpt_refresh-btn",t.innerText=chrome.i18n.getMessage("background_script_refresh_tips_refresh_btn"),t.onclick=()=>{e.remove(),location.reload()};const r=document.createElement("span");r.className="musegpt_close-btn",r.innerText="\u2715",r.onclick=()=>e.remove(),e.appendChild(t),e.appendChild(r),document.head.appendChild(o),document.body.appendChild(e)},N=()=>{if(!document.getElementById("musegpt-tips")){const o=document.createElement("div");o.style.cssText=`
+      top: 10px;
+      right: 10px;
+      position: fixed;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      transition: opacity 0.3s;
+      opacity: 0;
+      box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    `,o.id="musegpt-tips";const t=document.createElement("div");t.style.cssText=`
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    `;const r=document.createElement("span");r.style.cssText=`
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid white;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    `;const n=document.createElement("span");n.style.cssText=`
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      position: absolute;
+    `,t.appendChild(r),t.appendChild(n),o.appendChild(t);const a=document.createElement("span"),c=document.createTextNode(chrome.i18n.getMessage("background_script_loading_tips"));a.appendChild(c),o.appendChild(a);const s=document.createElement("style");s.textContent=`
       @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
-    `,document.head.appendChild(i),setTimeout(()=>{e.style.opacity="1"},50)}},O=async t=>{chrome.tabs.sendMessage(t.id,{message:"popup-active"},e=>{chrome.runtime.lastError?chrome.runtime.lastError.message:chrome.tabs.onUpdated.removeListener(v)})},k=async()=>{const{museOptions:t}=await chrome.storage.local.get(["museOptions"]),e=t;return e&&e.hasOwnProperty("openAIApiKey")&&e.openAIApiKey.trim()!==""?!0:(chrome.runtime.openOptionsPage(),!1)},M=async t=>{await k()&&(chrome.tabs.get(t.id,e=>{e.status,e.status==="loading"&&(chrome.tabs.onUpdated.addListener(v),chrome.scripting.executeScript({target:{tabId:t.id},func:N,injectImmediately:!0}))}),O(t))};chrome.action.onClicked.addListener(async t=>{M(t)});chrome.commands.onCommand.addListener(t=>{t==="_execute_action"&&chrome.tabs.query({active:!0,currentWindow:!0},e=>{const o=e[0];M(o)})});const A=()=>{chrome.tabs.query({},t=>{for(let e=0;e<t.length;e++)chrome.tabs.reload(t[e].id)})};chrome.runtime.onInstalled.addListener(t=>{t.reason=="update"&&A(),t.reason==="install"&&(k(),A())});let T;async function*L(t){const e=t.getReader();try{for(;;){const{done:o,value:n}=await e.read();if(o)return;yield n}}finally{e.releaseLock()}}const $=async(t,e)=>{const{onmessage:o,onerror:n}=e;if(!t.ok){n(t);return}const s=E(a=>{a.type==="event"&&o(a.data)});for await(const a of L(t.body)){const c=new TextDecoder().decode(a);s.feed(c)}},j=async(t,e)=>{T||(T=new AbortController);const{museOptions:o}=await chrome.storage.local.get(["museOptions"]);if(!o&&!o.openAIApiKey){t.postMessage({messageId:"error-fetch",errorContent:"fetch OpenAI API error: configuration uninitialized"}),console.error("fetch OpenAI API error: configuration uninitialized");return}const n=o,s=n.openAIModel||C.openAIModel,a=n.openAIApiKey,c=n.openAITemperature||C.openAITemperature;t.postMessage({messageId:"fetch-api-begin",options:{prompts:e,model:s,temperature:c}});const i=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:`Bearer ${a}`},body:JSON.stringify({messages:e,model:`${s}`,temperature:c,stream:!0}),signal:T.signal});if(t.postMessage({messageId:"fetch-api-done",options:{prompts:e,model:s},apiResponse:i}),!i.ok)return console.error("error:fetch error,response:",i),t.postMessage({messageId:"error-fetch",errorContent:`fetch OpenAI API error,response:${i}`}),i;let y="";await $(i,{onmessage(f){if(f==="[DONE]")return t.postMessage({messageId:"onmessage-done",chatContent:y}),i;let I;try{I=JSON.parse(f)}catch(l){return console.error("parsing msg to JSON fail"),t.postMessage({messageId:"error-parsing-json",errorContent:`parsing msg to JSON fail,error: ${l}`}),i}let d;I.choices&&I.choices[0].delta&&(d=I.choices[0].delta.content),d&&(y+=d,t.postMessage({messageId:"onmessage-receving",chatContent:y}))},onerror(f){t.postMessage({messageId:"error-onstreaming",errorContent:`on streaming error: ${f}`}),console.error("on streaming error:",f)}})};chrome.runtime.onConnect.addListener(t=>{t.onMessage.addListener(e=>{if(e.task==="get-page-summary"){const o=e.prompts;j(t,o)}})});chrome.runtime.onMessage.addListener((t,e,o)=>{if(t.method==="open-option-page"&&(chrome.runtime.openOptionsPage(),o()),t.method==="abort-fetching-openai"&&(T.abort(),T=void 0,o()),t.method==="http-fetch-text")return fetch(t.url,t.options).then(async n=>{if(!n.ok)throw console.error("HTTP error in background:",n),new Error(`HTTP error! status: ${n.status}, statusText: ${n.statusText}`);return await n.text()}).then(n=>{o({data:n})}).catch(n=>{o({error:n.message})}),!0;if(t.method==="http-fetch")return fetch(t.url,t.options).then(n=>{if(!n.ok)throw console.error("HTTP error in background:",n),new Error(`HTTP error! status: ${n.status}, statusText: ${n.statusText}`);return n.json()}).then(n=>{o({data:n})}).catch(n=>o({error:n.message})),!0});
+    `,document.head.appendChild(s),document.body.appendChild(o),setTimeout(()=>{o.style.opacity="1"},50)}},I=async(e,o="popup-active")=>{chrome.tabs.sendMessage(e.id,{message:o},t=>{chrome.runtime.lastError?(chrome.runtime.lastError.message,(e==null?void 0:e.status)==="complete"&&o==="popup-active"&&(chrome.scripting.executeScript({target:{tabId:e.id},func:S,injectImmediately:!0}),chrome.scripting.executeScript({target:{tabId:e.id},func:()=>{var r=document.getElementById("musegpt-tips");r&&r.remove()}}))):(chrome.tabs.onUpdated.removeListener(A),chrome.tabs.onUpdated.removeListener(C))})},M=async()=>{const{museOptions:e}=await chrome.storage.local.get(["museOptions"]),o=e;return o&&o.hasOwnProperty("openAIApiKey")&&o.openAIApiKey.trim()!==""?!0:(chrome.runtime.openOptionsPage(),!1)};chrome.tabs.onUpdated.addListener((e,o,t)=>{var r;o.status==="complete"&&(b[e]={ready:!0,shown:((r=b[e])==null?void 0:r.shown)||!1},chrome.tabs.query({active:!0,currentWindow:!0},n=>{n.length>0&&n[0].id===e&&b[e].ready&&(setTimeout(()=>{w(t,!0)},100),b[e].shown=!0)}))});chrome.tabs.onActivated.addListener(e=>{chrome.tabs.get(e.tabId,o=>{const t=b[o.id];t&&t.ready&&!t.shown&&(setTimeout(()=>{w(o,!0)},100),b[o.id].shown=!0)})});chrome.tabs.onRemoved.addListener(e=>{delete b[e]});chrome.tabs.onUpdated.addListener((e,o,t)=>{o.status});const w=async(e,o=!1)=>{await M()&&(chrome.tabs.get(e.id,t=>{t.status,t.status==="loading"&&(o?chrome.tabs.onUpdated.addListener(A):chrome.tabs.onUpdated.addListener(C),chrome.scripting.executeScript({target:{tabId:e.id},func:N,injectImmediately:!0}))}),o?I(e,"popup-active-auto"):I(e))};chrome.action.onClicked.addListener(async e=>{w(e)});chrome.commands.onCommand.addListener(e=>{e==="_execute_action"&&chrome.tabs.query({active:!0,currentWindow:!0},o=>{const t=o[0];w(t)})});chrome.runtime.onInstalled.addListener(e=>{e.reason=="update",e.reason==="install"&&M()});let f;async function*D(e){const o=e.getReader();try{for(;;){const{done:t,value:r}=await o.read();if(t)return;yield r}}finally{o.releaseLock()}}const B=async(e,o)=>{const{onmessage:t,onerror:r}=o;if(!e.ok){r(e);return}const n=L(a=>{a.type==="event"&&t(a.data)});for await(const a of D(e.body)){const c=new TextDecoder().decode(a);n.feed(c)}},U=async(e,o)=>{try{f||(f=new AbortController);const{museOptions:t}=await chrome.storage.local.get(["museOptions"]);if(!t&&!t.openAIApiKey){e.postMessage({messageId:"error-fetch",errorContent:"fetch OpenAI API error: configuration uninitialized"}),console.error("fetch OpenAI API error: configuration uninitialized");return}const r=t,n=r.openAIModel||E.openAIModel,a=r.openAIApiKey,c=r.openAITemperature||E.openAITemperature;e.postMessage({messageId:"fetch-api-begin",options:{prompts:o,model:n,temperature:c}});const s=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:`Bearer ${a}`},body:JSON.stringify({messages:o,model:`${n}`,temperature:c,stream:!0}),signal:f.signal});if(e.postMessage({messageId:"fetch-api-done",options:{prompts:o,model:n},apiResponse:s}),!s.ok)return console.error("error:fetch error,response:",s),e.postMessage({messageId:"error-fetch",errorContent:`fetch OpenAI API error,response:${s}`}),s;let x="";await B(s,{onmessage(y){if(y==="[DONE]")return e&&e.postMessage({messageId:"onmessage-done",chatContent:x}),s;let v;try{v=JSON.parse(y)}catch(d){return console.error("parsing msg to JSON fail"),e.postMessage({messageId:"error-parsing-json",errorContent:`parsing msg to JSON fail,error: ${d}`}),s}let p;v.choices&&v.choices[0].delta&&(p=v.choices[0].delta.content),p&&(x+=p,e.postMessage({messageId:"onmessage-receving",chatContent:x}))},onerror(y){e.postMessage({messageId:"error-onstreaming",errorContent:`on streaming error: ${y}`}),console.error("on streaming error:",y)}})}catch(t){t.message.includes("disconnected port")&&t.message.includes("port")?console.error("The port is disconnected"):e.postMessage({messageId:"error-onstreaming",errorContent:`on fetching error: ${t.message}, stack: ${t}`})}};chrome.runtime.onConnect.addListener(e=>{e.onMessage.addListener(o=>{if(o.task==="get-page-summary"){const t=o.prompts;U(e,t)}}),e.onDisconnect.addListener(()=>{f&&(f.abort(),f=void 0)})});chrome.runtime.onMessage.addListener((e,o,t)=>{if(e.method==="open-option-page"&&(chrome.runtime.openOptionsPage(),t()),e.method==="abort-fetching-openai"&&(f.abort(),f=void 0,t()),e.method==="http-fetch-text")return fetch(e.url,e.options).then(async r=>{if(!r.ok)throw console.error("HTTP error in background:",r),new Error(`HTTP error! status: ${r.status}, statusText: ${r.statusText}`);return await r.text()}).then(r=>{t({data:r})}).catch(r=>{t({error:r.message})}),!0;if(e.method==="http-fetch")return fetch(e.url,e.options).then(r=>{if(!r.ok)throw console.error("HTTP error in background:",r),new Error(`HTTP error! status: ${r.status}, statusText: ${r.statusText}`);return r.json()}).then(r=>{t({data:r})}).catch(r=>t({error:r.message})),!0});

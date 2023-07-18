@@ -1,4 +1,16 @@
 {
+  "background_script_loading_tips":{
+    "message":"等待当前页面加载完成...",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_text":{
+    "message":"当前页面需要刷新才能使用MuseGPT Page, ",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_refresh_btn":{
+    "message":"点击这里刷新",
+    "description":"background_script"
+  },
   "option_setup_openai_h1":{
     "message":"OpenAI",
     "description":"设置-setup-界面"
@@ -439,6 +451,22 @@
     "message":"未执行任何操作",
     "description":"toast组件默认状态"
   },
+  "panel_enabled_youtube_popup_toast":{
+    "message":"已开启在Youtube视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_disabled_youtube_popup_toast":{
+    "message":"已取消在Youtube视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_enabled_bilibili_popup_toast":{
+    "message":"已开启在Bilibili视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_disabled_bilibili_popup_toast":{
+    "message":"已取消在Bilibili视频页自动弹出",
+    "description":"popup-toast"
+  },
   "options_sider_setup":{
     "message": "安装",
     "description": "设置-安装"
@@ -584,11 +612,11 @@
     "description": "设置-安装-界面"
   },
   "options_general_h1":{
-    "message": "通用设置",
+    "message": "界面设置",
     "description": "设置-通用-界面"
   },
   "options_general_theme_label":{
-    "message": "Notion 授权",
+    "message": "主题设置",
     "description": "设置-通用-界面"
   },
   "options_general_theme_label_tips":{
@@ -617,6 +645,62 @@
   },
   "options_general_theme_save_btn":{
     "message": "保存",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle":{
+    "message": "自动提取字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_tips":{
+    "message": "控制在视频页面提取摘要前是否先尝试提取视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_youtube":{
+    "message": "自动获取Youtube视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_youtube_tips":{
+    "message": "在生成Youtube视频摘要前,先尝试自动获取字幕,会稍稍增加获取页面摘要时间",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_bilibili":{
+    "message": "自动获取Bilibili视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_bilibili_tips":{
+    "message": "在生成Bilibili视频摘要前,先尝试自动获取字幕,会稍稍增加获取页面摘要时间",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_save_success":{
+    "message": "保存自动提取字幕设置成功",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_label":{
+    "message": "自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_label_tips":{
+    "message": "控制是否要在特定页面自动弹出面板并提取摘要",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_youtube_label":{
+    "message": "Youtube视频页",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_youtube_label_tips":{
+    "message": "在Youtube的视频播放页面自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_bilibili_label":{
+    "message": "Bilibili视频页面",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_bilibili_label_tips":{
+    "message": "在Bilibili的视频播放页面自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_save_success":{
+    "message": "保存自动弹出设置成功",
     "description": "设置-通用-界面"
   },
   "options_about_h1":{
@@ -736,7 +820,7 @@
     "description": "初始化配置"
   },
   "config_prompt_item1_content":{
-    "message": "作为一个网页总结器,用{lan}语言用几句话对视频是关于什么的做出简要概括,并以\"该视频/页面是关于..\"开始,然后从现有信息中推断出当前页面或视频的重点内容,用markdown格式完成以下步骤:\n###重点内容\n结合哔哩哔哩视频内容和用户的特点,用项目符号的形式用{lan}语言列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止罗列页面上的视频播放数据,并且不要只是列出问题,而是尽可能提供视频中问题的答案,忽略其他与视频不相关的内容.\n###精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n###用户观点\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释.",
+    "message": "作为一个网页总结器,用mardown格式完成以下要求:\n### 简介\n用{lan}语言对该视频页是关于什么的做出简要概括\n### 重点内容\n结合Bilibili视频内容和用户的特点,用{lan}语言以项目符号列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止简单罗列页面上的播放相关数据,尽可能提供视频中主要问题的答案或描述,忽略其他与视频不相关的内容.\n### 精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n### 用户评论\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释",
     "description": "初始化配置"
   },
   "config_prompt_item2_name":{
@@ -744,7 +828,7 @@
     "description": "初始化配置"
   },
   "config_prompt_item2_content":{
-    "message": "作为一个网页总结器,用{lan}语言用几句话对视频是关于什么的做出简要概括,并以\"该视频/页面是关于..\"开始,然后从现有信息中推断出当前页面或视频的重点内容,用markdown格式完成以下步骤:\n###重点内容\n结合youtube视频内容和用户的特点,用项目符号的形式用{lan}语言列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止罗列页面上的视频播放数据,并且不要只是列出问题,而是尽可能提供视频中问题的答案,忽略其他与视频不相关的内容.\n###精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n###用户观点\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释.",
+    "message": "作为一个网页总结器,用mardown格式完成以下要求:\n### 简介\n用{lan}语言对该视频页是关于什么的做出简要概括\n### 重点内容\n结合Youtube视频内容和用户的特点,用{lan}语言以项目符号列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止简单罗列页面上的播放相关数据,尽可能提供视频中主要问题的答案或描述,忽略其他与视频不相关的内容.\n### 精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n### 用户评论\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释",
     "description": "初始化配置"
   },
   "config_prompt_item3_name":{
