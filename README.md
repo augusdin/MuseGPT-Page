@@ -14,7 +14,7 @@
     <img alt="Wikipedia" src="https://img.shields.io/badge/Wikipedia-information-6B6B6B.svg">
     <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey">
     
-<br>
+<br><br>
 
 <img width="500" src="./resource/show.gif"><br/>
 This is a Chrome extension that allows you to summarize and categorize the current page with a single click using OpenAI's ChatGPT API. With just one more click, you can save the summary and page information to your Notion table.
