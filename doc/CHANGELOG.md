@@ -13,17 +13,25 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-## [1.0.0-beta.5] - 2023-7-20
+## [1.0.1] - 2023-7-20
 
 ### Added
 - Added a close button in the top-right corner
+
 ### Fixed
 - Fixed an issue where not filling in the API key would force redirection to the guide page
 
+### Changed
+-Set as version 1.0.1
+
 ### Added
 - 右上角增加关闭按钮
+
 ### Fixed
 - 修复未填写api key时会强制跳转到向导页面的问题
+
+### Changed
+- 定为1.0.1版本
 
 ## [1.0.0-beta.4] - 2023-7-18
 

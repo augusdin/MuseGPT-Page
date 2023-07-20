@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Muse GPT Page",
-  "version": "1.0.0.5",
+  "version": "1.0.1",
   "default_locale": "en",
   "description": "Muse GPT Page",
   "permissions": [
@@ -40,7 +40,7 @@
         "src/pages/content/index.js"
       ],
       "css": [
-        "assets/css/contentStyle16898323908.chunk.css"
+        "assets/css/contentStyle16898326566.chunk.css"
       ]
     }
   ],
