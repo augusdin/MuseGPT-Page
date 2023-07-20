@@ -5,11 +5,25 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- 右上角增加关闭按钮
 
 ### Fixed
+- 修复未填写api key时会强制跳转到向导页面的问题
 - shadow dom 使用svg在某些站点导致冲突(待完成)
 
 ### Changed
+
+## [1.0.0-beta.5] - 2023-7-20
+
+### Added
+- Added a close button in the top-right corner
+### Fixed
+- Fixed an issue where not filling in the API key would force redirection to the guide page
+
+### Added
+- 右上角增加关闭按钮
+### Fixed
+- 修复未填写api key时会强制跳转到向导页面的问题
 
 ## [1.0.0-beta.4] - 2023-7-18
 

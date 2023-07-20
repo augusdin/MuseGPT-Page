@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Muse GPT Page",
-  "version": "1.0.0.4",
+  "version": "1.0.0.5",
   "default_locale": "en",
   "description": "Muse GPT Page",
   "permissions": [
@@ -14,9 +14,9 @@
     "service_worker": "src/pages/background/index.js",
     "type": "module"
   },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
-  },
+  "host_permissions": [
+    "https://cdnjs.buymeacoffee.com/*"
+  ],
   "commands": {
     "_execute_action": {
       "suggested_key": {
@@ -40,7 +40,7 @@
         "src/pages/content/index.js"
       ],
       "css": [
-        "assets/css/contentStyle16896720205.chunk.css"
+        "assets/css/contentStyle16898323908.chunk.css"
       ]
     }
   ],
