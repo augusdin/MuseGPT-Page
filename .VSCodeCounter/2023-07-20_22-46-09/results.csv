@@ -1,0 +1,31 @@
+"filename", "language", "TypeScript JSX", "TypeScript", "CSS", "SCSS", "HTML", "XML", "comment", "blank", "total"
+"/Users/saladingsu/code/musegpt-page-code-v2/src/assets/img/logo.svg", "XML", 0, 0, 0, 0, 0, 59, 0, 1, 60
+"/Users/saladingsu/code/musegpt-page-code-v2/src/assets/img/oepnai_logo.svg", "XML", 0, 0, 0, 0, 0, 7, 0, 1, 8
+"/Users/saladingsu/code/musegpt-page-code-v2/src/assets/style/theme.scss", "SCSS", 0, 0, 0, 3, 0, 0, 0, 1, 4
+"/Users/saladingsu/code/musegpt-page-code-v2/src/chrome/i18n.ts", "TypeScript", 0, 8, 0, 0, 0, 0, 0, 5, 13
+"/Users/saladingsu/code/musegpt-page-code-v2/src/global.d.ts", "TypeScript", 0, 60, 0, 0, 0, 0, 1, 13, 74
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/background/background.ts", "TypeScript", 0, 557, 0, 0, 0, 0, 229, 66, 852
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/components/NotionOAuthDialog.tsx", "TypeScript JSX", 172, 0, 0, 0, 0, 0, 15, 10, 197
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/components/svg_components/notion_logo_svg.tsx", "TypeScript JSX", 16, 0, 0, 0, 0, 0, 0, 1, 17
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/components/svg_components/openai_logo_svg.tsx", "TypeScript JSX", 15, 0, 0, 0, 0, 0, 0, 1, 16
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/config/config.ts", "TypeScript", 0, 222, 0, 0, 0, 0, 42, 14, 278
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/config/init.ts", "TypeScript", 0, 40, 0, 0, 0, 0, 7, 5, 52
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/components/panel/app.css", "CSS", 0, 0, 13, 0, 0, 0, 0, 1, 14
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/components/panel/app.tsx", "TypeScript JSX", 2080, 0, 0, 0, 0, 0, 404, 182, 2666
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/components/panel/app_index.tsx", "TypeScript JSX", 136, 0, 0, 0, 0, 0, 21, 25, 182
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/components/panel/svg_components/notion_logo_svg.tsx", "TypeScript JSX", 16, 0, 0, 0, 0, 0, 0, 0, 16
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/components/panel/svg_components/openai_logo_svg.tsx", "TypeScript JSX", 16, 0, 0, 0, 0, 0, 0, 0, 16
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/content.ts", "TypeScript", 0, 2, 0, 0, 0, 0, 4, 2, 8
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/content/style.scss", "SCSS", 0, 0, 0, 57, 0, 0, 3, 8, 68
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/interface/option.ts", "TypeScript", 0, 29, 0, 0, 0, 0, 3, 5, 37
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/Options.css", "CSS", 0, 0, 8, 0, 0, 0, 0, 1, 9
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/Options.tsx", "TypeScript JSX", 2403, 0, 0, 0, 0, 0, 395, 116, 2914
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/index.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/index.html", "HTML", 0, 0, 0, 0, 11, 0, 0, 2, 13
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/index.tsx", "TypeScript JSX", 28, 0, 0, 0, 0, 0, 1, 5, 34
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/svg_components/notion_logo_svg.tsx", "TypeScript JSX", 16, 0, 0, 0, 0, 0, 0, 0, 16
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/svg_components/openai_logo_svg.tsx", "TypeScript JSX", 16, 0, 0, 0, 0, 0, 0, 0, 16
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/wizard.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/saladingsu/code/musegpt-page-code-v2/src/pages/options/wizard.tsx", "TypeScript JSX", 692, 0, 0, 0, 0, 0, 144, 44, 880
+"/Users/saladingsu/code/musegpt-page-code-v2/src/vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 1, 1, 2
+"Total", "-", 5606, 918, 21, 60, 11, 66, 1270, 512, 8464

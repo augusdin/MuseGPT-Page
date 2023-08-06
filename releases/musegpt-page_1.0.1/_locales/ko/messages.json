@@ -1,0 +1,990 @@
+{
+  "background_script_loading_tips":{
+    "message":"等待当前页面加载完成...",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_text":{
+    "message":"当前页面需要刷新才能使用MuseGPT Page,",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_refresh_btn":{
+    "message":" 点击这里刷新",
+    "description":"background_script"
+  },
+  "option_setup_openai_h1":{
+    "message":"OpenAI",
+    "description":"设置-setup-界面"
+  },
+  "option_setup_prompts_delete_confirm_dialog_cancel_btn":{
+    "message":"取消",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_delete_confirm_dialog_confirm_btn":{
+    "message":"确认",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_delete_confirm_dialog_text":{
+    "message":"确认要删除当前的Prompt吗?删除后无法恢复",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_delete_btn":{
+    "message":"删除",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_save_btn":{
+    "message":"保存",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_content_textfield_tips3":{
+    "message":"由于实现自动分类的插件核心功能,所有的prompt都会自动加上以下内容:",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_content_textfield_tips2":{
+    "message":"{category}会被替换为生成选项里设置的分类",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_content_textfield_tips1":{
+    "message":"prompt里的{lan}会被替换为生成选项里设置的生成语言",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_content_textfield_label":{
+    "message":"Prompt 内容",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_host_textfield_label_tips":{
+    "message":"指定该Prompt需要适配的域名,格式:site.com,留空对所有站点适配,不支持通配符*",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_host_textfield_placeholder":{
+    "message":"添加适配域名",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_host_textfield_label":{
+    "message":"适配域名",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_name_input_label_tips":{
+    "message":"显示在下拉列表的便于记忆的名字",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_name_input_label":{
+    "message":"新增",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_new_btn":{
+    "message":"新增",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_input_label":{
+    "message":"选择要编辑的Prompts",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_tips":{
+    "message":"需要自定义Prompt,请从新增一个自定义Prompt开始",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_edit_label":{
+    "message":"自定义Prompts",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_select_use_default_item":{
+    "message":"默认的Prompt(推荐)",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_select_use_intput_label":{
+    "message":"选择要使用的Prompt",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_select_use_label_tips2":{
+    "message":"有适配域名的Prompt不可选,因为会自动在对应域名下启用",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_select_use_label_tips":{
+    "message":"选择MuseGPT面板默认使用的Prompt",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_select_use_label":{
+    "message":"选择Prompt",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_label_prompts":{
+    "message":"Prompts",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_generate_save_btn":{
+    "message":"保存",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_category_autocomplete_label":{
+    "message":"分类",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_category_autocomplete_placeholder":{
+    "message":"选择分类",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_label_category_tips":{
+    "message":"对页面总结后会从这些类别里进行选择,输入后回车确认",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_label_category":{
+    "message":"分类",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_language_autocomplete_label":{
+    "message":"语言",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_label_language_tips":{
+    "message":"prompt里的所有{lan}都会被替换为这个值,输入后回车确认",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_label_language":{
+    "message":"生成语言",
+    "description":"设置-prompts-界面"
+  },
+  "option_setup_prompts_option_h1":{
+    "message":"生成选项",
+    "description":"设置-prompts-h1"
+  },
+  "option_setup_general_theme_toast_save_success":{
+    "message":"保存主题设置成功!",
+    "description":"设置-主题"
+  },
+  "option_setup_notion_oauth_delete_success":{
+    "message":"删除Notion授权成功!",
+    "description":"设置-安装-notion"
+  },
+  "option_setup_notion_oauth_delete_noneed":{
+    "message":"您还未完成Notion的授权,因此没有需要授权的授权",
+    "description":"设置-安装-notion"
+  },
+  "option_setup_notion_oauth_allready_finish":{
+    "message":"当前已完成授权Notion,不需要重复授权",
+    "description":"设置-安装-notion"
+  },
+  "option_setup_notion_check_error":{
+    "message":"查询Notion授权状态失败,请尝试稍后重试",
+    "description":"设置-安装-notion状态查询"
+  },
+  "option_setup_notion_check_fetch_error":{
+    "message":"查询Notion授权状态请求服务端异常,请尝试稍后重试",
+    "description":"设置-安装-notion状态查询"
+  },
+  "option_prompts_select_prompt_toast_use":{
+    "message":"当前是用户浏览的页面内容,用{lan}语言从中总结最有价值的5个重点",
+    "description":"设置-Prompt-新增prompt初始化值"
+  },
+  "option_prompts_new_init_prompt":{
+    "message":"当前是用户浏览的页面内容,用{lan}语言从中总结最有价值的5个重点",
+    "description":"设置-Prompt-新增prompt初始化值"
+  },
+  "option_prompts_new_init_name":{
+    "message":"自定义Prompt",
+    "description":"设置-Prompt-新增prompt初始化值"
+  },
+  "option_prompts_toast_delete_success_use_default":{
+    "message":"删除当前Prompt成功!因为使用Prompt选择的是该Prompt,已重置为默认",
+    "description":"设置-Prompt-删除prompt"
+  },
+  "option_prompts_toast_delete_success":{
+    "message":"删除当前Prompt成功!",
+    "description":"设置-Prompt-删除prompt"
+  },
+  "option_prompts_select_use_default_success":{
+    "message":"为当前MuseGPT使用的Prompt成功!",
+    "description":"设置-Prompt-选择默认prompt"
+  },
+  "option_prompts_select_use_success_text2":{
+    "message":"为当前MuseGPT使用的Prompt成功!",
+    "description":"设置-Prompt-选择默认prompt"
+  },
+  "option_prompts_select_use_success_text1":{
+    "message":"选择",
+    "description":"设置-Prompt-选择默认prompt"
+  },
+  "option_prompts_host_toast_deleted_repeat":{
+    "message":"输入的域名重复,不能输入重复的域名",
+    "description":"设置-Prompt-不能输入重复的域名,已删除重复域名"
+  },
+  "option_prompts_host_toast_too_many":{
+    "message":"最多支持匹配5个域名",
+    "description":"设置-Prompt-域名输入过多提示"
+  },
+  "option_prompts_host_repeat":{
+    "message":"输入的域名重复,不能输入重复的域名",
+    "description":"设置-Prompt-不能输入重复的域名"
+  },
+  "option_prompts_save_prompts_success_set_select_default":{
+    "message":"保存Prompts成功,但由于被选的Prompt设置了适配域名，选择Prompt已恢复为默认",
+    "description":"设置-Prompt-保存成功,选择prompt恢复为默认"
+  },
+  "option_prompts_save_prompts_success":{
+    "message":"保存Prompts设置成功",
+    "description":"设置-Prompt-保存成功"
+  },
+  "option_prompts_toast_err_text_prompt_content_blank":{
+    "message":"rompt内容为空;",
+    "description":"设置-Prompt-toast提示错误文字"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_content_blank":{
+    "message":"Prompt内容不能为空",
+    "description":"设置-Prompt-EditPromptContentTextareaHelpText"
+  },
+  "option_prompts_PromptHostInputHelpText_host_format_err":{
+    "message":"域名格式有误",
+    "description":"设置-Prompt-PromptHostInputHelpText"
+  },
+  "option_prompts_EditPromptNameHelpText_name_blank":{
+    "message":"Prompt名称不能为空",
+    "description":"设置-Prompt-EditPromptNameHelpText"
+  },
+  "option_prompts_toast_err_text_name_blank":{
+    "message":"Prompt名称为空;",
+    "description":"设置-Prompt-toast提示错误文字"
+  },
+  "option_prompts_toast_save_prompts_unknow_err":{
+    "message":"保存失败,未知错误,请尝试刷新页面重试",
+    "description":"设置-Prompt-toast提示"
+  },
+  "option_prompts_toast_save_generation_option_success":{
+    "message":"保存生成选项成功",
+    "description":"设置-Prompt-toast提示"
+  },
+  "option_prompts_toast_save_fail":{
+    "message":"保存失败,原因:",
+    "description":"设置-Prompt-toast提示错误内容"
+  },
+  "option_prompts_toast_err_text_categories_blank":{
+    "message":"页面分类为空;",
+    "description":"设置-Prompt-toast提示错误内容"
+  },
+  "option_prompts_PromptCategoriesInputHelpText_blank":{
+    "message":"页面分类不能为空",
+    "description":"设置-PromptCategoriesInputHelpText"
+  },
+  "option_prompts_toast_err_text_language_blank":{
+    "message":"生成语言为空;",
+    "description":"设置-Prompt-toast提示错误内容"
+  },
+  "option_prompts_toast_err_text_content_too_lang":{
+    "message":"prompt字数过多;",
+    "description":"设置-Prompt-toast提示错误内容"
+  },
+  "option_prompts_PromptLanguageInputHelpText_blank":{
+    "message":"生成语言不能为空",
+    "description":"设置-PromptLanguageInputHelpText"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_too_long":{
+    "message":"prompt字数过长，请进行精简",
+    "description":"设置-prompts-EditPromptHelpText"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_blank":{
+    "message":"prompt不能为空,请输入prompt",
+    "description":"设置-prompts-EditPromptHelpText"
+  },
+  "option_setup_toast_init_error_save_fail":{
+    "message":"本地配置未初始化,保存失败!请尝试重新安装插件",
+    "description":"设置-安装-toast-提示"
+  },
+  "option_setup_toast_save_base_option_success":{
+    "message":"保存OpenAI设置成功",
+    "description":"设置-安装-toast-提示"
+  },
+  "option_setup_toast_save_base_option_fail":{
+    "message":"保存失败",
+    "description":"设置-安装-toast-提示"
+  },
+  "option_setup_apiKeyValueInvalidText_invalid_format":{
+    "message":"无效的Secret Key",
+    "description":"设置-安装-apikey文本框错误提示格式错误"
+  },
+  "option_setup_apiKeyValueInvalidText":{
+    "message":"请输入您的OpenAI Secret Key,否则插件无法正常工作",
+    "description":"设置-安装-apikey文本框错误提示默认值"
+  },
+  "option_setup_model_temperature_marks_default_label":{
+    "message":"(默认)",
+    "description":"设置-安装"
+  },
+  "notion_oauth_dialog_ok_btn":{
+    "message":"我明白了,去授权",
+    "description":"授权对话框-确认按钮"
+  },
+  "notion_oauth_dialog_content_policy_link":{
+    "message":"隐私政策",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line12":{
+    "message":" 请放心，我们不会保存你其他任何信息。详情请阅读我们的",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line11":{
+    "message":" 对于Notion个人信息的请求只用于在MuseGPT创建你的账户,以便后续为您提供更多服务。",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line10":{
+    "message":"MuseGPT Page无法访问您选择的页面以外的任何Notion页面,在这一点上Notion的引导存在一些误导。",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line9":{
+    "message":"Notion授权详细指导",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line8":{
+    "message":"如果需要更多帮助,请点击这里:",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line7":{
+    "message":"这是Notion自身的限制。",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line6":{
+    "message":"否则在保存时会创建一张新表来保存网页信息,而不是在之前授权时创建的表中保存。",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line5":{
+    "message":"并在接下来的选项中选择之前在Notion中保存的Muse Page Summary表。",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line4":{
+    "message":"Select pages to share with MuseGPT",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line3":{
+    "message":"如果你之前已经在MuseGPT Page授权过Notion,请在授权页面中选择:",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line2":{
+    "message":"Use a template provide by the developer",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_content_line1":{
+    "message":"如果你是首次在MuseGPT Page 进行Notion授权,请在授权页面中直接选择:",
+    "description":"授权对话框-内容"
+  },
+  "notion_oauth_dialog_title":{
+    "message":"授权前请注意",
+    "description":"授权对话框-标题"
+  },
+  "panel_fetching_subtitle_btn": {
+    "message": "正在获取字幕,请稍等",
+    "description": "面板-获取字幕按钮"
+  },
+  "panel_summary_prompt_select_default_value": {
+    "message": "默认的Prompt",
+    "description": "面板-prompt下拉"
+  },
+  "panel_cancel_btn":{
+    "message":"取消",
+    "description":"面板-取消按钮"
+  },
+  "panel_download_subtitle_srt_hint_fail": {
+    "message": "没有可下载的字幕,下载失败,请稍后重试",
+    "description": "面白-下载字幕提示"
+  },
+  "panel_download_subtitle_srt_hint_success": {
+    "message": "完成字幕srt文件的下载",
+    "description": "面白-下载字幕提示"
+  },
+  "panel_summary_authz_notion_btn":{
+    "message":"授权..",
+    "description":"授权Notion"
+  },
+  "panel_summary_save_notion_btn":{
+    "message":"保存到..",
+    "description":"保存到notion按钮"
+  },
+  "panel_summary_category_select":{
+    "message":"类别",
+    "description":"面板,页面类别"
+  },
+  "panel_summary_byline_input":{
+    "message":"作者",
+    "description":"面板,作者"
+  },
+  "panel_summarizing_unkonwn_error":{
+    "message":"抱歉,生成摘时发生未知错误,请尝试重试",
+    "description":"抱歉,生成摘时发生未知错误,请尝试重试"
+  },
+  "panel_summarizing_error":{
+    "message":"抱歉,生成摘要时发生请求错误,请尝试重试",
+    "description":"抱歉,生成摘要失败,请尝试重试"
+  },
+  "panel_edit_summary_state_error":{
+    "message":"该状态下无法进行编辑",
+    "description":"该状态下无法进行编辑"
+  },
+  "panel_copyto_clipboar_fail_no_content":{
+    "message":"摘要为空,复制到剪贴板失败",
+    "description":"摘要为空,复制到剪贴板失败"
+  },
+  "panel_copyto_clipboar_success":{
+    "message":"复制摘要到剪贴板成功",
+    "description":"复制摘要到剪贴板成功"
+  },
+  "panel_notion_oauth_already_finish":{
+    "message":"已完成授权,正在保存到Notion",
+    "description":"已完成授权,正在保存到Notion"
+  },
+  "panel_save_to_notion_fail_no_content":{
+    "message":"没有生成内容,保存到Notion失败,请尝试重新生成",
+    "description":"保存到notion失败,没有生成内容"
+  },
+  "panel_save_to_notion_fail_try_reoauth":{
+    "message":"保存到Notion失败,请尝试重新授权",
+    "description":"保存到notion失败,需要重新授权"
+  },
+  "panel_save_to_notion_fail_try_again":{
+    "message":"保存到Notion失败,请尝试重试,原因:",
+    "description":"保存到notion失败,后端接口原因"
+  },
+  "panel_save_to_notion_success":{
+    "message":"成功保存当前页到Notion",
+    "description":"保存到notion成功"
+  },
+  "panel_check_notion_oauth_fetch_error_toast":{
+    "message":"获取notion授权状态失败,请稍后重试",
+    "description":"toast组件默认状态"
+  },
+  "panel_default_toast_state_message":{
+    "message":"未执行任何操作",
+    "description":"toast组件默认状态"
+  },
+  "panel_enabled_youtube_popup_toast":{
+    "message":"已开启在Youtube视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_disabled_youtube_popup_toast":{
+    "message":"已取消在Youtube视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_enabled_bilibili_popup_toast":{
+    "message":"已开启在Bilibili视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "panel_disabled_bilibili_popup_toast":{
+    "message":"已取消在Bilibili视频页自动弹出",
+    "description":"popup-toast"
+  },
+  "options_sider_setup":{
+    "message": "安装",
+    "description": "设置-安装"
+  },
+  "options_sider_prompts":{
+    "message": "Prompts",
+    "description": "设置-Prompts"
+  },
+  "options_sider_general":{
+    "message": "通用",
+    "description": "通用设置"
+  },
+  "options_sider_about":{
+    "message": "关于",
+    "description": "关于设置"
+  },
+  "options_setup_model_dialog_confirm_btn":{
+    "message": "我了解GPT-4,继续",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_dialog_cancel_btn":{
+    "message": "我再想想",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_dialog_content_text1":{
+    "message": "首先要确认您的OpenAI Secret Key 支持GPT-4",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_dialog_content_text2":{
+    "message": "并且OpenAI的GPT-4模型会产生高昂的费用，本插件经过反复测试能够在GPT-3.5模型下较好的运行。大部分情况下不需要使用GPT-4模型。",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_dialog_content_text3":{
+    "message": "如果您对GPT-4模型以及其会产生的高昂费用没有足够的了解，则强烈建议你不要使用GPT-4模型。",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_dialog_title":{
+    "message": "确定要使用GPT-4模型吗?",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_label_tips":{
+    "message": "使用模型",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_label":{
+    "message": "使用模型",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_input_label":{
+    "message": "模型",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_tips_1":{
+    "message": "模型如果网页内容过长,部分内容可能会被截断",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_tips_2":{
+    "message": "需要接口支持,且可能会产生高昂费用",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_item_gpt_3_5_turbo_16k":{
+    "message": "gpt-3.5-turbo-16k(推荐)",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_item_gpt_3_5_turbo":{
+    "message": "gpt-3.5-turbo",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_item_gpt_4":{
+    "message": "gpt-4",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_select_item_gpt_4_32k":{
+    "message": "gpt-4-32k",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_openai_key":{
+    "message": "请填写你在OpenAI获取的的Secret Key",
+    "description": "文本填写提示"
+  },
+  "options_setup_openai_key_textfield_label":{
+    "message": "Secret Key",
+    "description": "openai key 文本标签文字"
+  },
+  "options_setup_openai_key_Link_get":{
+    "message": "获取我的Secret Key",
+    "description": "Settings-Setup-OpenAi_key-Link-Get"
+  },
+  "options_setup_openai_key_Link_how":{
+    "message": "如何获取?",
+    "description": "Settings-Setup-OpenAi_key-Link-Get"
+  },
+  "options_setup_model_temperature_label":{
+    "message": "温度",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_temperature_label_tips":{
+    "message": "如果你对生成结果不满意，可以尝试改变这个值",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_temperature_slider_left_label":{
+    "message": "更准确",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_model_temperature_slider_right_label":{
+    "message": "更具创造性",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_openai_save_btn":{
+    "message": "保存",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_oauth_h1":{
+    "message": "Notion 授权",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_oauth_btn":{
+    "message": "授权Notion",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_delete_oauth_btn":{
+    "message": "删除授权",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_dlete_dialog_content_text":{
+    "message": "确认要删除当前已完成的授权吗？删除后需要重新授权。",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_delete_dialog_confirm_btn":{
+    "message": "确认",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_delete_dialog_cancel_btn":{
+    "message": "取消",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_oauth_not_finished":{
+    "message": "当前未完成授权Notion",
+    "description": "设置-安装-界面"
+  },
+  "options_setup_notion_oauth_finished":{
+    "message": "已完成Notion授权",
+    "description": "设置-安装-界面"
+  },
+  "options_general_h1":{
+    "message": "通用设置",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_label":{
+    "message": "主题设置",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_label_tips":{
+    "message": "可以随时通过任何界面右上角的切换开关进行临时切换",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_switch_label":{
+    "message": "跟随系统",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_switch_label_tips":{
+    "message": "请注意该设置在保存后才会生效",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_select_input_label":{
+    "message": "请注意该设置在保存后才会生效",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_select_item_light":{
+    "message": "浅色主题",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_select_item_dark":{
+    "message": "深色主题",
+    "description": "设置-通用-界面"
+  },
+  "options_general_theme_save_btn":{
+    "message": "保存",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle":{
+    "message": "自动提取字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_tips":{
+    "message": "控制在视频页面提取摘要前是否先尝试提取视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_youtube":{
+    "message": "自动获取Youtube视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_youtube_tips":{
+    "message": "在生成Youtube视频摘要前,先尝试自动获取字幕,会稍稍增加获取页面摘要时间",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_bilibili":{
+    "message": "自动获取Bilibili视频字幕",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_bilibili_tips":{
+    "message": "在生成Bilibili视频摘要前,先尝试自动获取字幕,会稍稍增加获取页面摘要时间",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_subtitle_option_save_success":{
+    "message": "保存自动提取字幕设置成功",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_label":{
+    "message": "自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_label_tips":{
+    "message": "控制是否要在特定页面自动弹出面板并提取摘要",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_youtube_label":{
+    "message": "Youtube视频页",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_youtube_label_tips":{
+    "message": "在Youtube的视频播放页面自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_bilibili_label":{
+    "message": "Bilibili视频页面",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_bilibili_label_tips":{
+    "message": "在Bilibili的视频播放页面自动弹出",
+    "description": "设置-通用-界面"
+  },
+  "options_general_auto_popup_option_save_success":{
+    "message": "保存自动弹出设置成功",
+    "description": "设置-通用-界面"
+  },
+  "options_about_h1":{
+    "message": "关于MuseGPT Page",
+    "description": "设置-通用-界面"
+  },
+  "options_about_version_label":{
+    "message": "版本号",
+    "description": "设置-通用-界面"
+  },
+  "options_about_changelog_label":{
+    "message": "更新日志",
+    "description": "设置-通用-界面"
+  },
+  "options_about_changelog_link_label":{
+    "message": "GitHub 页面",
+    "description": "设置-通用-界面"
+  },
+  "wizard_toast_save_secret_key":{
+    "message": "已成功保存Secret Key!",
+    "description": "向导-toast"
+  },
+  "wizard_toast_invalid_key":{
+    "message": "无效的Secret Key",
+    "description": "向导-toast"
+  },
+  "wizard_welcome_title":{
+    "message": "欢迎使用MuseGPT Page",
+    "description": "向导-界面"
+  },
+  "wizard_welcome_tips1":{
+    "message": "仅需",
+    "description": "向导-界面"
+  },
+  "wizard_welcome_tips2":{
+    "message": "两步",
+    "description": "向导-界面"
+  },
+  "wizard_welcome_tips3":{
+    "message": "即可立即开始使用MuseGPT Page",
+    "description": "向导-界面"
+  },
+  "wizard_first_step_label1":{
+    "message": "第一步,点击",
+    "description": "向导-界面"
+  },
+  "wizard_first_step_link_label":{
+    "message": "这个链接",
+    "description": "向导-界面"
+  },
+  "wizard_first_step_label2":{
+    "message": ",登陆OpenAI获取您的OpenAI Secret key,并填在这里",
+    "description": "向导-界面"
+  },
+  "wizard_seccend_step_label":{
+    "message": "第二步, 在Notion页登陆您的账户并授权MuseGPT向Notion保存页面内容",
+    "description": "向导-界面"
+  },
+  "wizard_notion_oauth_btn":{
+    "message": "授权Notion",
+    "description": "向导-界面"
+  },
+  "wizard_notion_not_now_oauth_btn":{
+    "message": "我现在不想授权Notion",
+    "description": "向导-界面"
+  },
+  "wizard_notion_finished_oauth":{
+    "message": "已完成Notion授权",
+    "description": "向导-界面"
+  },
+  "wizard_notion_not_finish_oauth":{
+    "message": "当前未完成授权Notion",
+    "description": "向导-界面"
+  },
+  "wizard_congratulations_finish_text1":{
+    "message": "🎉 恭喜你,已完成MuseGPT Page的配置!",
+    "description": "向导-界面"
+  },
+  "wizard_congratulations_finish_text2":{
+    "message": "现在就可以立即开始使用MuseGPT Page啦!",
+    "description": "向导-界面"
+  },
+  "wizard_close_page_btn":{
+    "message": "关闭页面",
+    "description": "向导-界面"
+  },
+  "wizard_redirect_to_option":{
+    "message": "进入设置",
+    "description": "向导-界面"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text1":{
+    "message": "不授权Notion将无法使用保存到Notion功能,不过你也可以以后需要时再授权",
+    "description": "向导-界面"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text2":{
+    "message": "确定现在不授权Notion吗?",
+    "description": "确定现在不授权Notion吗?"
+  },
+  "wizard_not_now_notion_oauth_dialog_confirm_btn":{
+    "message": "确认",
+    "description": "向导-界面"
+  },
+  "wizard_not_now_notion_oauth_dialog_cancel_btn":{
+    "message": "取消",
+    "description": "向导-界面"
+  },
+  "config_MAINPROMPT":{
+    "message": "从现有信息推断出是什么网站及页面,主要是关于什么内容的,先用几句话用{lan}语言对此做出简单概括,如果页面内容中包含教程或者介绍一些方法步骤,则接下来以容易理解的方式用{lan}语言罗列出这些方法的主要步骤,否则分析页面中有价值的重点内容,并以项目符号的形式用{lan}语言列出,不要只是列出问题,而是试着提供问题的答案.不要遗漏页面上与主题相关的重点内容.接下来,如果有用户评论,则需要用项目符号列出你对用户评论观点的总结和分析..所有的回复都只允许用{lan}语言.",
+    "description": "初始化配置"
+  },
+  "config_PROMPT_SUFFIX":{
+    "message": "Lastly,Determine the page's category from '{category}', concluding strictly just with [Category],brackets only,other words are not allowed.like [Music]",
+    "description": "初始化配置"
+  },
+  "config_prompt_item1_name":{
+    "message": "bilibili 视频总结",
+    "description": "初始化配置"
+  },
+  "config_prompt_item1_content":{
+    "message": "作为一个网页总结器,用{lan}语言用几句话对视频是关于什么的做出简要概括,并以\"该视频/页面是关于..\"开始,然后从现有信息中推断出当前页面或视频的重点内容,用markdown格式完成以下步骤:\n### 重点内容\n结合哔哩哔哩视频内容和用户的特点,用项目符号的形式用{lan}语言列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止罗列页面上的视频播放数据,并且不要只是列出问题,而是尽可能提供视频中问题的答案,忽略其他与视频不相关的内容.\n### 精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n### 用户观点\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释.",
+    "description": "初始化配置"
+  },
+  "config_prompt_item2_name":{
+    "message": "youtube视频总结",
+    "description": "初始化配置"
+  },
+  "config_prompt_item2_content":{
+    "message": "作为一个网页总结器,用{lan}语言用几句话对视频是关于什么的做出简要概括,并以\"该视频/页面是关于..\"开始,然后从现有信息中推断出当前页面或视频的重点内容,用markdown格式完成以下步骤:\n### 重点内容\n结合youtube视频内容和用户的特点,用项目符号的形式用{lan}语言列出当前视频里的重点信息,如果有提供video subtitle,则主要根据字幕内容总结视频重点内容,不允许且禁止罗列页面上的视频播放数据,并且不要只是列出问题,而是尽可能提供视频中问题的答案,忽略其他与视频不相关的内容.\n### 精彩时间点\n如果有video subtitle内容,则用{lan}语言根据字幕列出三个视频最精彩的时间点和内容.\n### 用户观点\n如果有用户评论,则用{lan}语言总结用户评论的有趣观点.\n以上所有的回复都只允许用{lan}语言,不允许其他语言.只回复你的结论不要解释.",
+    "description": "初始化配置"
+  },
+  "config_prompt_item3_name":{
+    "message": "github项目总结",
+    "description": "初始化配置"
+  },
+  "config_prompt_item3_content":{
+    "message": "从现有信息推断出当前的github项目主要是用来做什么的,先用几句话用{lan}语言对此做出简单概括,如果当前页面内容中包含项目的安装教程及方法,或者安装注意事项,则接下来需要以容易理解的方式用{lan}语言详细罗列出这些方法的主要步骤,然后再分析该项目需要注意的点并以项目符号的形式用{lan}语言列出,不要遗漏页面上与项目主题相关的重点内容.",
+    "description": "初始化配置"
+  },
+  "config_categorie_social_media": {
+    "message": "社交媒体",
+    "description": "初始化配置"
+  },
+  "config_categorie_news": {
+    "message": "新闻",
+    "description": "初始化配置"
+  },
+  "config_categorie_e_commerce": {
+    "message": "电商",
+    "description": "初始化配置"
+  },
+  "config_categorie_entertainment": {
+    "message": "娱乐",
+    "description": "初始化配置"
+  },
+  "config_categorie_education": {
+    "message": "教育",
+    "description": "初始化配置"
+  },
+  "config_categorie_search_engine": {
+    "message": "搜索引擎",
+    "description": "初始化配置"
+  },
+  "config_categorie_email": {
+    "message": "邮箱",
+    "description": "初始化配置"
+  },
+  "config_categorie_weather": {
+    "message": "天气",
+    "description": "初始化配置"
+  },
+  "config_categorie_developer": {
+    "message": "开发者",
+    "description": "初始化配置"
+  },
+  "config_categorie_streaming": {
+    "message": "流媒体",
+    "description": "初始化配置"
+  },
+  "config_categorie_ai": {
+    "message": "AI",
+    "description": "初始化配置"
+  },
+  "config_categorie_adult": {
+    "message": "成人内容",
+    "description": "初始化配置"
+  },
+  "config_categorie_video_games": {
+    "message": "视频游戏",
+    "description": "初始化配置"
+  },
+  "config_categorie_professional_networking": {
+    "message": "职业社交网络",
+    "description": "初始化配置"
+  },
+  "config_categorie_fitness": {
+    "message": "健身",
+    "description": "初始化配置"
+  },
+  "config_categorie_health": {
+    "message": "健康",
+    "description": "初始化配置"
+  },
+  "config_categorie_finance": {
+    "message": "财经",
+    "description": "初始化配置"
+  },
+  "config_categorie_travel": {
+    "message": "旅行",
+    "description": "初始化配置"
+  },
+  "config_categorie_sports": {
+    "message": "体育",
+    "description": "初始化配置"
+  },
+  "config_categorie_food": {
+    "message": "食物",
+    "description": "初始化配置"
+  },
+  "config_categorie_cooking": {
+    "message": "烹饪",
+    "description": "初始化配置"
+  },
+  "config_categorie_job_search": {
+    "message": "工作搜索",
+    "description": "初始化配置"
+  },
+  "config_categorie_real_estate": {
+    "message": "房地产",
+    "description": "初始化配置"
+  },
+  "config_categorie_music": {
+    "message": "音乐",
+    "description": "初始化配置"
+  },
+  "config_categorie_photography": {
+    "message": "摄影",
+    "description": "初始化配置"
+  },
+  "config_categorie_science": {
+    "message": "科学",
+    "description": "初始化配置"
+  },
+  "config_categorie_politics": {
+    "message": "政治",
+    "description": "初始化配置"
+  },
+  "config_categorie_current_affairs": {
+    "message": "时事",
+    "description": "初始化配置"
+  },
+  "config_categorie_technology": {
+    "message": "技术",
+    "description": "初始化配置"
+  },
+  "config_categorie_digital": {
+    "message": "数码",
+    "description": "初始化配置"
+  },
+  "config_categorie_crypto": {
+    "message": "加密币",
+    "description": "初始化配置"
+  },
+  "config_categorie_make_money": {
+    "message": "赚钱",
+    "description": "初始化配置"
+  },
+  "config_categorie_short_video": {
+    "message": "短视频",
+    "description": "初始化配置"
+  },
+  "config_categorie_save_money": {
+    "message": "省钱",
+    "description": "初始化配置"
+  },
+  "config_categorie_art": {
+    "message": "艺术",
+    "description": "初始化配置"
+  },
+  "config_categorie_renting": {
+    "message": "租房",
+    "description": "初始化配置"
+  },
+  "config_categorie_other": {
+    "message": "其他",
+    "description": "初始化配置"
+  }
+}

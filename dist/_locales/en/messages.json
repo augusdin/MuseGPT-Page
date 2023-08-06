@@ -1,0 +1,1003 @@
+{
+  "background_script_loading_tips":{
+    "message":"Waiting for the current page to finish loading...",
+    "description":"background_script"
+  },
+  "background_script_refresh_tips_text": {
+    "message": "The current page needs to be refreshed to use MuseGPT Page, ",
+    "description": "background_script"
+  },
+  "background_script_refresh_tips_refresh_btn": {
+    "message": "Click here to Refresh", 
+    "description": "background_script"
+  },
+  "option_setup_openai_h1":{
+    "message":"OpenAI",
+    "description":"Setup-Setup-Interface"
+  },
+  "option_setup_prompts_delete_confirm_dialog_cancel_btn":{
+    "message":"Cancel",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_delete_confirm_dialog_confirm_btn":{
+    "message":"Confirm",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_delete_confirm_dialog_text":{
+    "message":"Are you sure you want to delete the current Prompt? This action cannot be undone",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_delete_btn":{
+    "message":"Delete",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_save_btn":{
+    "message":"Save",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_content_textfield_tips3":{
+    "message":"Due to the core function of the automatic classification plugin, all prompts will automatically add the following content:",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_content_textfield_tips2":{
+    "message":"{category} will be replaced by the category set in the generation options",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_content_textfield_tips1":{
+    "message":"{lan} in the prompt will be replaced by the generation language set in the generation options",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_content_textfield_label":{
+    "message":"Prompt content",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_host_textfield_label_tips":{
+    "message":"Specify the domain name that this Prompt needs to adapt to, format: site.com, leave blank for all sites, wildcard * not supported",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_host_textfield_placeholder":{
+    "message":"Add compatible domain",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_host_textfield_label":{
+    "message":"Adapted domain name",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_name_input_label_tips":{
+    "message":"A memorable name displayed in the drop-down list",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_name_input_label":{
+    "message":"Add new",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_new_btn":{
+    "message":"Add new",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_input_label":{
+    "message":"Select the Prompts to edit",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_tips":{
+    "message":"To customize a Prompt, start by adding a new custom Prompt",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_edit_label":{
+    "message":"Custom Prompts",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_select_use_default_item":{
+    "message":"Default Prompt (recommended)",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_select_use_intput_label":{
+    "message":"Select the Prompt to use",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_select_use_label_tips2":{
+    "message":"Prompts with matching domain names cannot be selected as they will automatically be enabled under the corresponding domain",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_select_use_label_tips":{
+    "message":"Select the default Prompt for the MuseGPT panel",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_select_use_label":{
+    "message":"Select Prompt",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_label_prompts":{
+    "message":"Prompts",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_generate_save_btn":{
+    "message":"Save",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_category_autocomplete_label":{
+    "message":"Category",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_category_autocomplete_placeholder":{
+    "message":"Select category",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_label_category_tips":{
+    "message":"After summarizing the page, a selection will be made from these categories, enter to confirm",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_label_category":{
+    "message":"Category",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_language_autocomplete_label":{
+    "message":"Language",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_label_language_tips":{
+    "message":"All {lan} in the prompt will be replaced with this value, enter to confirm",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_label_language":{
+    "message":"Generation language",
+    "description":"Setup-Prompts-Interface"
+  },
+  "option_setup_prompts_option_h1":{
+    "message":"Generation options",
+    "description":"Setup-Prompts-h1"
+  },
+  "option_setup_general_theme_toast_save_success":{
+    "message":"Theme settings saved successfully!",
+    "description":"Setup-Theme"
+  },
+  "option_setup_notion_oauth_delete_success":{
+    "message":"Notion authorization deleted successfully!",
+    "description":"Setup-Installation-Notion"
+  },
+  "option_setup_notion_oauth_delete_noneed":{
+    "message":"You have not completed Notion's authorization, so there is no authorization to delete",
+    "description":"Setup-Installation-Notion"
+  },
+  "option_setup_notion_oauth_allready_finish":{
+    "message":"Current authorization with Notion is already complete, no need to re-authorize",
+    "description":"Setup-Installation-Notion"
+  },
+  "option_setup_notion_check_error":{
+    "message":"Failed to check Notion authorization status, please try again later",
+    "description":"Setup-Installation-Notion status check"
+  },
+  "option_setup_notion_check_fetch_error":{
+    "message":"Server error when checking Notion authorization status, please try again later",
+    "description":"Setup-Installation-Notion status check"
+  },
+  "option_prompts_select_prompt_toast_use":{
+    "message":"This is the page content browsed by the user, use {lan} to summarize the 5 most valuable points from it",
+    "description":"Setup-Prompts-Select"
+  },
+"option_prompts_new_init_prompt":{
+    "message":"This is the current page content that the user is browsing. Summarize the 5 most valuable points in {lan}",
+    "description":"Setting-Prompt-Add new prompt initialization value"
+  },
+  "option_prompts_new_init_name":{
+    "message":"Custom Prompt",
+    "description":"Setting-Prompt-Add new prompt initialization value"
+  },
+  "option_prompts_toast_delete_success_use_default":{
+    "message":"Successfully deleted the current Prompt! Since the selected Prompt was this Prompt, it has been reset to default",
+    "description":"Setting-Prompt-Delete prompt"
+  },
+  "option_prompts_toast_delete_success":{
+    "message":"Successfully deleted the current Prompt!",
+    "description":"Setting-Prompt-Delete prompt"
+  },
+  "option_prompts_select_use_default_success":{
+    "message":"Successfully set the Prompt for the current MuseGPT!",
+    "description":"Setting-Prompt-Select default prompt"
+  },
+  "option_prompts_select_use_success_text2":{
+    "message":"Successfully set the Prompt for the current MuseGPT!",
+    "description":"Setting-Prompt-Select default prompt"
+  },
+  "option_prompts_select_use_success_text1":{
+    "message":"Select",
+    "description":"Setting-Prompt-Select default prompt"
+  },
+  "option_prompts_host_toast_deleted_repeat":{
+    "message":"The entered domain name is repeated, repeated domain names cannot be entered",
+    "description":"Setting-Prompt-Can't input repeated domain name, have deleted repeated domain name"
+  },
+  "option_prompts_host_toast_too_many":{
+    "message":"Supports matching up to 5 domain names",
+    "description":"Setting-Prompt-Domain name input overload prompt"
+  },
+  "option_prompts_host_repeat":{
+    "message":"The entered domain name is repeated, repeated domain names cannot be entered",
+    "description":"Setting-Prompt-Can't input repeated domain name"
+  },
+  "option_prompts_save_prompts_success_set_select_default":{
+    "message":"Successfully saved Prompts, but because the selected Prompt set a matching domain name, the selected Prompt has been reset to default",
+    "description":"Setting-Prompt-Successfully saved, select prompt restored to default"
+  },
+  "option_prompts_save_prompts_success":{
+    "message":"Successfully saved Prompts settings",
+    "description":"Setting-Prompt-Successfully saved"
+  },
+  "option_prompts_toast_err_text_prompt_content_blank":{
+    "message":"Prompt content is blank;",
+    "description":"Setting-Prompt-toast error text hint"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_content_blank":{
+    "message":"Prompt content cannot be blank",
+    "description":"Setting-Prompt-EditPromptContentTextareaHelpText"
+  },
+  "option_prompts_PromptHostInputHelpText_host_format_err":{
+    "message":"Domain name format is incorrect",
+    "description":"Setting-Prompt-PromptHostInputHelpText"
+  },
+  "option_prompts_EditPromptNameHelpText_name_blank":{
+    "message":"Prompt name cannot be blank",
+    "description":"Setting-Prompt-EditPromptNameHelpText"
+  },
+  "option_prompts_toast_err_text_name_blank":{
+    "message":"Prompt name is blank;",
+    "description":"Setting-Prompt-toast error text hint"
+  },
+  "option_prompts_toast_save_prompts_unknow_err":{
+    "message":"Save failed, unknown error, please try refreshing the page to retry",
+    "description":"Setting-Prompt-toast hint"
+  },
+   "option_prompts_toast_save_generation_option_success":{
+    "message":"Successfully saved generation options",
+    "description":"Setting-Prompt-toast hint"
+  },
+  "option_prompts_toast_save_fail":{
+    "message":"Save failed, reason:",
+    "description":"Setting-Prompt-toast error content hint"
+  },
+  "option_prompts_toast_err_text_categories_blank":{
+    "message":"Page categories are blank;",
+    "description":"Setting-Prompt-toast error content hint"
+  },
+  "option_prompts_PromptCategoriesInputHelpText_blank":{
+    "message":"Page categories cannot be blank",
+    "description":"Setting-PromptCategoriesInputHelpText"
+  },
+  "option_prompts_toast_err_text_language_blank":{
+    "message":"Generation language is blank;",
+    "description":"Setting-Prompt-toast error content hint"
+  },
+  "option_prompts_toast_err_text_content_too_lang":{
+    "message":"Prompt has too many words;",
+    "description":"Setting-Prompt-toast error content hint"
+  },
+  "option_prompts_PromptLanguageInputHelpText_blank":{
+    "message":"Generation language cannot be blank",
+    "description":"Setting-PromptLanguageInputHelpText"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_too_long":{
+    "message":"Prompt is too long, please condense it",
+    "description":"Setting-prompts-EditPromptHelpText"
+  },
+  "option_prompts_EditPromptContentTextareaHelpText_blank":{
+    "message":"Prompt cannot be blank, please enter a prompt",
+    "description":"Setting-prompts-EditPromptHelpText"
+  },
+  "option_setup_toast_init_error_save_fail":{
+    "message":"Local configuration not initialized, save failed! Please try reinstalling the plugin",
+    "description":"Setting-Installation-toast-hint"
+  },
+  "option_setup_toast_save_base_option_success":{
+    "message":"Successfully saved OpenAI settings",
+    "description":"Setting-Installation-toast-hint"
+  },
+  "option_setup_toast_save_base_option_fail":{
+    "message":"Save failed",
+    "description":"Setting-Installation-toast-hint"
+  },
+  "option_setup_apiKeyValueInvalidText_invalid_format":{
+    "message":"Invalid Secret Key",
+    "description":"Setting-Installation-apikey textbox error hint for incorrect format"
+  },
+  "option_setup_apiKeyValueInvalidText":{
+    "message":"Please enter your OpenAI Secret Key, otherwise the plugin will not work properly",
+    "description":"Setting-Installation-apikey textbox error hint default value"
+  },
+  "option_setup_model_temperature_marks_default_label":{
+    "message":"(default)",
+    "description":"Setting-Installation"
+  },
+  "notion_oauth_dialog_ok_btn":{
+    "message":"I understand, proceed to authorization",
+    "description":"Authorization dialog-Confirm button"
+  },
+  "notion_oauth_dialog_content_policy_link":{
+    "message":"Privacy Policy",
+    "description":"Authorization dialog-Content"
+  },
+  "notion_oauth_dialog_content_line12": {
+    "message": "Rest assured, we won't save any other information. For more information, please read our",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line11": {
+    "message": "Requests for Notion personal information are only used to create your account in MuseGPT, so that we can provide more services to you in the future.",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line10": {
+    "message": "MuseGPT Page cannot access any Notion pages other than the one you selected, there is some misleading guidance on this point in Notion.",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line9": {
+    "message": "Notion Authorization Detailed Guide",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line8": {
+    "message": "If you need more help, please click here:",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line7": {
+    "message": "This is a limitation of Notion itself.",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line6": {
+    "message": "Otherwise, a new table will be created to save the webpage information when saving, instead of saving in the table created during the previous authorization.",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line5": {
+    "message": "And select the Muse Page Summary table saved in Notion in the next options.",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line4": {
+    "message": "Select pages to share with MuseGPT",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line3": {
+    "message": "If you have previously authorized Notion in MuseGPT Page, please select the following in the authorization page:",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line2": {
+    "message": "Use a template provided by the developer",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_content_line1": {
+    "message": "If you are authorizing Notion on MuseGPT Page for the first time, please select directly on the authorization page:",
+    "description": "Authorization Dialog - Content"
+  },
+  "notion_oauth_dialog_title": {
+    "message": "Please note before authorization",
+    "description": "Authorization Dialog - Title"
+  },
+  "panel_fetching_subtitle_btn": {
+    "message": "requesting subtitle,please wait a while",
+    "description": "Panel - fetching subtitle button"
+  },
+  "panel_cancel_btn": {
+    "message": "Cancel",
+    "description": "Panel - Cancel button"
+  },
+  "panel_download_subtitle_srt_hint_fail": {
+    "message": "No subtitles available for download, download failed.Please try again later.",
+    "description": "Panel - download submit srt"
+  },
+  "panel_download_subtitle_srt_hint_success": {
+    "message": "Successfully completed the download of subtitle srt file.",
+    "description": "Panel - download submit srt"
+  },
+  "panel_summary_prompt_select_default_value": {
+    "message": "Default Prompt",
+    "description": "Panel - Prompt select"
+  },
+  "panel_summary_authz_notion_btn": {
+    "message": "Authorize...",
+    "description": "Authorize Notion"
+  },
+  "panel_summary_save_notion_btn": {
+    "message": "Save to...",
+    "description": "Save to Notion button"
+  },
+  "panel_summary_category_select": {
+    "message": "Category",
+    "description": "Panel, page category"
+  },
+  "panel_summary_byline_input": {
+    "message": "Author",
+    "description": "Panel, author"
+  },
+  "panel_summarizing_unkonwn_error":{
+    "message":"Sorry, an unknown error occurred during the summary generation, please try again",
+    "description":"Sorry, an unknown error occurred during the summary generation, please try again"
+  },
+  "panel_summarizing_error":{
+    "message":"Sorry, a request error occurred while generating the summary, please try again",
+    "description":"Sorry, the summary generation failed, please try again"
+  },
+  "panel_edit_summary_state_error":{
+    "message":"Cannot edit in this state",
+    "description":"Cannot edit in this state"
+  },
+  "panel_copyto_clipboar_fail_no_content":{
+    "message":"The summary is empty, failed to copy to clipboard",
+    "description":"The summary is empty, failed to copy to clipboard"
+  },
+  "panel_copyto_clipboar_success":{
+    "message":"Successfully copied the summary to clipboard",
+    "description":"Successfully copied the summary to clipboard"
+  },
+  "panel_copyto_clipboar_signature":{
+    "message":"Summary from MuseGPT Page",
+    "description":"panel-copy"
+  },
+  "panel_notion_oauth_already_finish":{
+    "message":"Authorization has been completed, saving to Notion now",
+    "description":"Authorization has been completed, saving to Notion now"
+  },
+  "panel_save_to_notion_fail_no_content":{
+    "message":"No content generated, failed to save to Notion, please try to regenerate",
+    "description":"Failed to save to Notion, no content generated"
+  },
+  "panel_save_to_notion_fail_try_reoauth":{
+    "message":"Failed to save to Notion, please try to reauthorize",
+    "description":"Failed to save to Notion, needs reauthorization"
+  },
+  "panel_save_to_notion_fail_try_again":{
+    "message":"Failed to save to Notion, please try again, reason:",
+    "description":"Failed to save to Notion, due to backend interface reason"
+  },
+  "panel_save_to_notion_success":{
+    "message":"Successfully saved the current page to Notion",
+    "description":"Saved to Notion successfully"
+  },
+  "panel_check_notion_oauth_fetch_error_toast":{
+    "message":"Failed to fetch Notion authorization status, please try again later",
+    "description":"Toast component default state"
+  },
+  "panel_default_toast_state_message":{
+    "message":"No operation performed",
+    "description":"Toast component default state"
+  },
+  "panel_enabled_youtube_popup_toast": {
+    "message": "Auto popup enabled on Youtube video pages",
+    "description": "popup-toast"
+  },
+  "panel_disabled_youtube_popup_toast": {
+    "message": "Auto popup disabled on Youtube video pages",
+    "description": "popup-toast" 
+  },
+  "panel_enabled_bilibili_popup_toast": {
+    "message": "Auto popup enabled on Bilibili video pages",
+    "description": "popup-toast"
+  },
+  "panel_disabled_bilibili_popup_toast": {
+    "message": "Auto popup disabled on Bilibili video pages",
+    "description": "popup-toast"
+  },
+  "options_sider_setup":{
+    "message": "Setup",
+    "description": "Setup - Install"
+  },
+  "options_sider_prompts":{
+    "message": "Prompts",
+    "description": "Setup - Prompts"
+  },
+  "options_sider_general":{
+    "message": "General",
+    "description": "General settings"
+  },
+  "options_sider_about":{
+    "message": "About",
+    "description": "About settings"
+  },
+  "options_setup_model_dialog_confirm_btn":{
+    "message": "I understand GPT-4, continue",
+    "description": "Setup - Install - Interface"
+  },
+  "options_setup_model_dialog_cancel_btn":{
+    "message": "Let me think",
+    "description": "Setup - Install - Interface"
+  },
+  "options_setup_model_dialog_content_text1":{
+    "message": "First, confirm that your OpenAI Secret Key supports GPT-4",
+    "description": "Setup - Install - Interface"
+  },
+   "options_setup_model_dialog_content_text2": {
+    "message": "And the GPT-4 model from OpenAI will incur high costs, this plugin has been tested repeatedly and can run well under the GPT-3.5 model. There is usually no need to use the GPT-4 model.",
+    "description": "Setup - Install - Interface"
+  },
+  "options_setup_model_dialog_title": {
+    "message": "Please note before setup",
+    "description": "Setup - Install - Interface"
+  },
+  "options_setup_model_dialog_content_text3":{
+    "message": "If you don't have enough understanding of the GPT-4 model and its high costs, it is strongly recommended not to use the GPT-4 model.",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_label_tips":{
+    "message": "Use Model",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_label":{
+    "message": "Use Model",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_input_label":{
+    "message": "Model",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_tips_1":{
+    "message": "If the webpage content is too long, part of the content may be truncated",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_tips_2":{
+    "message": "Requires interface support, and may incur high costs",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_item_gpt_3_5_turbo_16k":{
+    "message": "gpt-3.5-turbo-16k (Recommended)",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_item_gpt_3_5_turbo":{
+    "message": "gpt-3.5-turbo",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_item_gpt_4":{
+    "message": "gpt-4",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_select_item_gpt_4_32k":{
+    "message": "gpt-4-32k",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_openai_key":{
+    "message": "Please fill in your Secret Key obtained from OpenAI",
+    "description": "Text fill prompt"
+  },
+  "options_setup_openai_key_textfield_label":{
+    "message": "Secret Key",
+    "description": "openai key Text label text"
+  },
+  "options_setup_openai_key_Link_get":{
+    "message": "Get my Secret Key",
+    "description": "Settings-Setup-OpenAi_key-Link-Get"
+  },
+  "options_setup_openai_key_Link_how":{
+    "message": "How to get?",
+    "description": "Settings-Setup-OpenAi_key-Link-Get"
+  },
+  "options_setup_model_temperature_label":{
+    "message": "Temperature",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_temperature_label_tips":{
+    "message": "If you are not satisfied with the generated results, you can try changing this value",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_temperature_slider_left_label":{
+    "message": "More accurate",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_model_temperature_slider_right_label":{
+    "message": "More creative",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_openai_save_btn":{
+    "message": "Save",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_oauth_h1":{
+    "message": "Notion Authorization",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_oauth_btn":{
+      "message": "Authorize Notion",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_delete_oauth_btn":{
+    "message": "Delete Authorization",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_dlete_dialog_content_text":{
+    "message": "Are you sure you want to delete the completed authorization? You need to reauthorize after deletion.",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_delete_dialog_confirm_btn":{
+    "message": "Confirm",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_delete_dialog_cancel_btn":{
+    "message": "Cancel",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_oauth_not_finished":{
+    "message": "Notion authorization not yet completed",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_setup_notion_oauth_finished":{
+    "message": "Notion authorization completed",
+    "description": "Settings-Installation-Interface"
+  },
+  "options_general_h1":{
+    "message": "Interface Settings",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_label":{
+    "message": "Theme Option",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_label_tips":{
+    "message": "You can switch temporarily at any time through the toggle switch at the top right corner of any interface",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_switch_label":{
+    "message": "Follow the System",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_switch_label_tips":{
+    "message": "Please note that this setting will take effect after saving",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_select_input_label":{
+    "message": "Please note that this setting will take effect after saving",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_select_item_light":{
+    "message": "Light Theme",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_select_item_dark":{
+    "message": "Dark Theme",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_theme_save_btn":{
+    "message": "Save",
+    "description": "Settings-General-Interface"
+  },
+  "options_general_auto_subtitle": {
+    "message": "Auto Extract Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_tips": {
+    "message": "Control whether to try extracting video subtitles before generating video page summaries", 
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_youtube": {
+    "message": "Auto Get Youtube Video Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_youtube_tips": {
+    "message": "Try automatically getting subtitles before generating Youtube video summaries, which will slightly increase page summary generation time",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_bilibili": {
+    "message": "Auto Get Bilibili Video Subtitles",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_bilibili_tips": {
+    "message": "Try automatically getting subtitles before generating Bilibili video summaries, which will slightly increase page summary generation time",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_subtitle_option_save_success": {
+    "message": "Auto Extract Subtitle Settings Saved Successfully",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_label": {
+    "message": "Auto Popup",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_label_tips": {
+    "message": "Control whether to automatically popup panel and extract summary on specific pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_youtube_label": {
+    "message": "Youtube Video Pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_youtube_label_tips": {
+    "message": "Auto popup on Youtube video play pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_bilibili_label": {
+    "message": "Bilibili Video Pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_bilibili_label_tips": {
+    "message": "Auto popup on Bilibili video play pages",
+    "description": "Settings - General - Interface"
+  },
+  "options_general_auto_popup_option_save_success": {
+    "message": "Auto Popup Settings Saved Successfully",
+    "description": "Settings - General - Interface"
+  },
+  "options_about_h1":{
+    "message": "About MuseGPT Page",
+    "description": "Settings-General-Interface"
+  },
+  "options_about_version_label":{
+    "message": "Version Number",
+    "description": "Settings-General-Interface"
+  },
+  "options_about_changelog_label":{
+    "message": "Update Log",
+    "description": "Settings-General-Interface"
+  },
+  "options_about_changelog_link_label":{
+    "message": "GitHub Page",
+    "description": "Settings-General-Interface"
+  },
+  "wizard_toast_save_secret_key":{
+    "message": "Secret Key saved successfully!",
+    "description": "Wizard-Toast"
+  },
+  "wizard_toast_invalid_key":{
+    "message": "Invalid Secret Key",
+    "description": "Wizard-Toast"
+  },
+  "wizard_welcome_title":{
+    "message": "Welcome to MuseGPT Page",
+    "description": "Wizard-Interface"
+  },
+  "wizard_welcome_tips1":{
+    "message": "Just",
+    "description": "Wizard-Interface"
+  },
+  "wizard_welcome_tips2":{
+    "message": " two steps ",
+    "description": "Wizard-Interface"
+  },
+  "wizard_welcome_tips3":{
+    "message": "to start using MuseGPT Page immediately",
+    "description": "Wizard-Interface"
+  },
+  "wizard_first_step_label1":{
+    "message": "First step, click",
+    "description": "Wizard-Interface"
+  },
+  "wizard_first_step_link_label":{
+    "message": "this link",
+    "description": "Wizard-Interface"
+  },
+  "wizard_first_step_label2":{
+    "message": ", log into OpenAI to get your OpenAI Secret key, and fill it in here",
+    "description": "Wizard-Interface"
+  },
+  "wizard_seccend_step_label":{
+    "message": "Second step, log into your Notion account and authorize MuseGPT to save page contents to Notion",
+    "description": "Wizard-Interface"
+  },
+  "wizard_notion_oauth_btn":{
+    "message": "Allow Notion",
+    "description": "Wizard-Interface"
+  },
+  "wizard_notion_not_now_oauth_btn":{
+    "message": "Skip for Now",
+    "description": "Wizard-Interface"
+  },
+  "wizard_notion_finished_oauth":{
+    "message": "Notion authorization completed",
+    "description": "Wizard-Interface"
+  },
+  "wizard_notion_not_finish_oauth":{
+    "message": "Notion authorization not completed",
+    "description": "Wizard-Interface"
+  },
+  "wizard_congratulations_finish_text1":{
+    "message": "🎉 Congratulations, you have completed the configuration of MuseGPT Page!",
+    "description": "Wizard-Interface"
+  },
+  "wizard_congratulations_finish_text2":{
+    "message": "You can now start using MuseGPT Page on any page immediately!",
+    "description": "Wizard-Interface"
+  },
+  "wizard_congratulations_finish_how_to_use_text1":{
+    "message": "Just follow the steps below to start using 👇",
+    "description": "Wizard-Interface"
+  },
+  "wizard_congratulations_finish_how_to_use_text2":{
+    "message": "Or press the keyboard shortcut directly on any page:",
+    "description": "Wizard-Interface"
+  },
+  
+  "wizard_close_page_btn":{
+    "message": "Close page",
+    "description": "Wizard-Interface"
+  },
+  "wizard_redirect_to_option":{
+    "message": "Go to settings",
+    "description": "Wizard-Interface"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text1":{
+    "message": "Without authorizing Notion, you won't be able to use the Save to Notion feature, but you can authorize it later when needed",
+    "description": "Wizard-Interface"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text2":{
+    "message": "Are you sure you don't want to authorize Notion now?",
+    "description": "Are you sure you don't want to authorize Notion now?"
+  },
+  "wizard_not_now_notion_oauth_dialog_confirm_btn":{
+    "message": "Confirm",
+    "description": "Wizard-Interface"
+  },
+  "wizard_not_now_notion_oauth_dialog_cancel_btn":{
+    "message": "Cancel",
+    "description": "Wizard-Interface"
+  },
+  "config_MAINPROMPT":{
+    "message": "Infer the website and page and main content from the given content.Provide a brief summary in {lan} language first.Next,If the page includes tutorials or step-by-step methods, list these in an understandable manner in {lan} language. If not, analyze valuable key points on the page and list in {lan} language with bullet points,Don't just list the problems, but also strive to provide the answers. ensuring no essential topic-related content is missed. Next,If there are user comments, summarize and analyze their opinions using bullet points. All responses should only be in {lan} language,with no other languages allowed.",
+    "description": "Initial Configuration"
+  },
+  "config_PROMPT_SUFFIX":{
+    "message": "After the tasks above, Determine the page's category from '{category}', concluding strictly just with [Category], brackets only, other words are not allowed. Like [Music]",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item1_name":{
+    "message": "Bilibili video summary",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item1_content":{
+    "message": "As a webpage summarizer,following request in markdown format:\n### overview\nsummarize what the video page is about in {lan} language\n### Key Points\nBased on the Bilibili user traits,Use {lan} to list key points.If subtitles are available,base summaries on them.Do not list play-related data.Aim to provide answers or descriptions\n### Highlights\nIf subtitles are available, use {lan} to list 3 top exciting time points and content\n### User Comments\nIf comments are present,summarize interesting views in {lan}.\nAll your Responses must be in {lan}. No other languages. Give conclusions, no no explain",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item2_name":{
+    "message": "Youtube video summary",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item2_content":{
+    "message": "As a webpage summarizer,following request in markdown format:\n### overview\nsummarize what the video page is about in {lan} language\n### Key Points\nBased on the Youtube user traits,Use {lan} to list key points.If subtitles are available,base summaries on them.Do not list play-related data.Aim to provide answers or descriptions\n### Highlights\nIf subtitles are available, use {lan} to list 3 top exciting time points and content\n### User Comments\nIf comments are present,summarize interesting views in {lan}.\nAll your Responses must be in {lan}. No other languages. Give conclusions, no no explain",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item3_name":{
+    "message": "Github project summary",
+    "description": "Initial Configuration"
+  },
+  "config_prompt_item3_content":{
+    "message": "Infer the primary purpose of the current GitHub project from available information. Provide a brief summary in {lan} First. Next, If the page includes installation tutorials, methods, or precautions, list these comprehensively in {lan} in an understandable manner. Then, analyze key points to note about the project and list them in {lan} with bullet points, ensuring no essential project-related content is missed.",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_social_media": {
+    "message": "Social Media",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_news": {
+    "message": "News",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_e_commerce": {
+    "message": "E-commerce",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_entertainment": {
+    "message": "Entertainment",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_education": {
+    "message": "Education",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_search_engine": {
+    "message": "Search Engine",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_email": {
+    "message": "Email",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_weather": {
+    "message": "Weather",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_developer": {
+    "message": "Developer",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_streaming": {
+    "message": "Streaming",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_ai": {
+    "message": "AI",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_adult": {
+    "message": "Adult Content",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_video_games": {
+    "message": "Video Games",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_professional_networking": {
+    "message": "Professional Networking",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_fitness": {
+    "message": "Fitness",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_health": {
+    "message": "Health",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_finance": {
+    "message": "Finance",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_travel": {
+    "message": "Travel",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_sports": {
+    "message": "Sports",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_food": {
+    "message": "Food",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_cooking": {
+    "message": "Cooking",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_job_search": {
+    "message": "Job Search",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_real_estate": {
+    "message": "Real Estate",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_music": {
+    "message": "Music",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_photography": {
+    "message": "Photography",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_science": {
+    "message": "Science",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_politics": {
+    "message": "Politics",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_current_affairs": {
+    "message": "Current Affairs",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_technology": {
+    "message": "Technology",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_digital": {
+    "message": "Digital",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_crypto": {
+    "message": "Crypto",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_make_money": {
+    "message": "Make Money",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_short_video": {
+    "message": "Short Video",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_save_money": {
+    "message": "Save Money",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_art": {
+    "message": "Art",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_renting": {
+    "message": "Renting",
+    "description": "Initial Configuration"
+  },
+  "config_categorie_other": {
+    "message": "Other",
+    "description": "Initial Configuration"
+  }
+}

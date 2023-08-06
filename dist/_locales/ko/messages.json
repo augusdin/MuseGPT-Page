@@ -1,0 +1,1004 @@
+{
+  "background_script_loading_tips":{
+    "message":"현재 페이지 로딩을 기다리는 중...",
+    "description":"background_script"
+  },
+"background_script_refresh_tips_text":{
+    "message":"MuseGPT Page를 사용하려면 현재 페이지를 새로고침해야 합니다,",
+    "description":"background_script"
+  },
+"background_script_refresh_tips_refresh_btn":{
+    "message":" 여기를 클릭하여 새로고침",
+    "description":"background_script"
+  },
+"option_setup_openai_h1":{
+    "message":"OpenAI",
+    "description":"설정-setup-화면"
+  },
+"option_setup_prompts_delete_confirm_dialog_cancel_btn":{
+    "message":"취소",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_delete_confirm_dialog_confirm_btn":{
+    "message":"확인",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_delete_confirm_dialog_text":{
+    "message":"현재 Prompt를 삭제하시겠습니까? 삭제 후 복구할 수 없습니다.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_delete_btn":{
+    "message":"삭제",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_save_btn":{
+    "message":"저장",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_content_textfield_tips3":{
+    "message":"자동 분류 플러그인 핵심 기능을 구현하기 위해 모든 prompt에 다음 내용이 자동으로 추가됩니다:",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_content_textfield_tips2":{
+    "message":"{category}는 생성 옵션에서 설정한 분류로 교체됩니다.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_content_textfield_tips1":{
+    "message":"prompt 내의 {lan}은 생성 옵션에서 설정한 언어로 교체됩니다.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_content_textfield_label":{
+    "message":"Prompt 내용",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_host_textfield_label_tips":{
+    "message":"이 Prompt가 적용될 도메인을 지정하십시오. 형식: site.com, 모든 사이트에 적용하려면 비워 둡니다. 와일드 카드 *는 지원되지 않습니다.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_host_textfield_placeholder":{
+    "message":"도메인 추가",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_host_textfield_label":{
+    "message":"적용 도메인",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_name_input_label_tips":{
+    "message":"드롭다운 목록에서 쉽게 기억할 수 있는 이름",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_name_input_label":{
+    "message":"추가",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_new_btn":{
+    "message":"추가",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_input_label":{
+    "message":"편집할 Prompt를 선택하십시오.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_tips":{
+    "message":"사용자 정의 Prompt가 필요한 경우 새로운 사용자 정의 Prompt를 시작하십시오.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_edit_label":{
+    "message":"사용자 정의 Prompts",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_select_use_default_item":{
+    "message":"기본 Prompt(추천)",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_select_use_intput_label":{
+    "message":"사용할 Prompt를 선택하십시오.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_select_use_label_tips2":{
+    "message":"도메인이 지정된 Prompt는 선택할 수 없습니다. 해당 도메인에서 자동으로 활성화됩니다.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_select_use_label_tips":{
+    "message":"MuseGPT 패널에서 기본적으로 사용할 Prompt를 선택하십시오.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_select_use_label":{
+    "message":"Prompt 선택",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_label_prompts":{
+    "message":"Prompts",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_generate_save_btn":{
+    "message":"저장",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_category_autocomplete_label":{
+    "message":"분류",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_category_autocomplete_placeholder":{
+    "message":"분류 선택",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_label_category_tips":{
+    "message":"페이지를 요약한 후 이러한 카테고리 중에서 선택됩니다. 입력 후 엔터로 확인.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_label_category":{
+    "message":"분류",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_language_autocomplete_label":{
+    "message":"언어",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_label_language_tips":{
+    "message":"prompt 내의 모든 {lan}은 이 값으로 교체됩니다. 입력 후 엔터로 확인.",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_label_language":{
+    "message":"생성 언어",
+    "description":"설정-prompts-화면"
+  },
+"option_setup_prompts_option_h1":{
+    "message":"생성 옵션",
+    "description":"설정-prompts-h1"
+  },
+"option_setup_general_theme_toast_save_success":{
+    "message":"테마 설정 저장 성공!",
+    "description":"설정-테마"
+  },
+"option_setup_notion_oauth_delete_success":{
+    "message":"Notion 인증 삭제 성공!",
+    "description":"설정-설치-notion"
+  },
+"option_setup_notion_oauth_delete_noneed":{
+    "message":"Notion 인증을 완료하지 않았으므로 인증을 제거할 필요가 없습니다.",
+    "description":"설정-설치-notion"
+  },
+"option_setup_notion_oauth_allready_finish":{
+    "message":"현재 Notion 인증이 완료되었습니다. 중복 인증이 필요하지 않습니다.",
+    "description":"설정-설치-notion"
+  },
+"option_setup_notion_check_error":{
+    "message":"Notion 인증 상태 조회 실패. 나중에 다시 시도하십시오.",
+    "description":"설정-설치-notion상태 조회"
+  },
+"option_setup_notion_check_fetch_error":{
+    "message":"Notion 인증 상태 조회 중 서버 오류 발생. 나중에 다시 시도하십시오.",
+    "description":"설정-설치-notion상태 조회"
+  },
+"option_prompts_select_prompt_toast_use":{
+    "message":"현재 사용자가 브라우징 중인 페이지 내용이며, {lan} 언어로 가장 가치 있는 5개의 주요 포인트를 요약합니다.",
+    "description":"설정-Prompt-새로운 prompt 초기 값"
+  },
+"option_prompts_new_init_prompt":{
+    "message":"현재 사용자가 브라우징 중인 페이지 내용이며, {lan} 언어로 가장 가치 있는 5개의 주요 포인트를 요약합니다.",
+    "description":"설정-Prompt-새로운 prompt 초기 값"
+  },
+"option_prompts_new_init_name":{
+    "message":"사용자 정의 Prompt",
+    "description":"설정-Prompt-새로운 prompt 초기 값"
+  },
+"option_prompts_toast_delete_success_use_default":{
+    "message":"현재 Prompt 삭제 성공! Prompt 선택이 해당 Prompt였기 때문에 기본값으로 재설정되었습니다.",
+    "description":"설정-Prompt-prompt 삭제"
+  },
+"option_prompts_toast_delete_success":{
+    "message":"현재 Prompt 삭제 성공!",
+    "description":"설정-Prompt-prompt 삭제"
+  },
+"option_prompts_select_use_default_success":{
+    "message":"현재 MuseGPT에 사용되는 Prompt 성공!",
+    "description":"설정-Prompt-기본 prompt 선택"
+  },
+"option_prompts_select_use_success_text2":{
+    "message":"현재 MuseGPT에 사용되는 Prompt 성공!",
+    "description":"설정-Prompt-기본 prompt 선택"
+  },
+"option_prompts_select_use_success_text1":{
+    "message":"선택",
+    "description":"설정-Prompt-기본 prompt 선택"
+  },
+"option_prompts_host_toast_deleted_repeat":{
+    "message":"입력한 도메인이 중복됩니다. 중복된 도메인을 입력할 수 없습니다.",
+    "description":"설정-Prompt-중복된 도메인 입력, 중복 도메인 삭제"
+  },
+"option_prompts_host_toast_too_many":{
+    "message":"최대 5개의 도메인만 지원됩니다.",
+    "description":"설정-Prompt-도메인 입력이 너무 많음"
+  },
+"option_prompts_host_repeat":{
+    "message":"입력한 도메인이 중복됩니다. 중복된 도메인을 입력할 수 없습니다.",
+    "description":"설정-Prompt-중복된 도메인 입력"
+  },
+"option_prompts_save_prompts_success_set_select_default":{
+    "message":"Prompt 저장 성공, 선택된 Prompt에 도메인이 설정되어 있기 때문에 선택된 Prompt가 기본값으로 재설정되었습니다.",
+    "description":"설정-Prompt-저장 성공, 선택된 prompt 기본값으로 재설정"
+  },
+"option_prompts_save_prompts_success":{
+    "message":"Prompt 설정 저장 성공",
+    "description":"설정-Prompt-저장 성공"
+  },
+
+"option_prompts_toast_err_text_prompt_content_blank":{
+    "message":"Prompt 내용이 없음;",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_EditPromptContentTextareaHelpText_content_blank":{
+    "message":"Prompt 내용은 비워 둘 수 없습니다.",
+    "description":"설정-Prompt-EditPromptContentTextareaHelpText"
+  },
+"option_prompts_PromptHostInputHelpText_host_format_err":{
+    "message":"도메인 형식 오류",
+    "description":"설정-Prompt-PromptHostInputHelpText"
+  },
+"option_prompts_EditPromptNameHelpText_name_blank":{
+    "message":"Prompt 이름은 비워 둘 수 없습니다.",
+    "description":"설정-Prompt-EditPromptNameHelpText"
+  },
+"option_prompts_toast_err_text_name_blank":{
+    "message":"Prompt 이름이 없음;",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_toast_save_prompts_unknow_err":{
+    "message":"저장 실패, 알 수 없는 오류, 페이지를 새로고침하여 다시 시도하십시오.",
+    "description":"설정-Prompt-toast 힌트"
+  },
+"option_prompts_toast_save_generation_option_success":{
+    "message":"생성 옵션 저장 성공",
+    "description":"설정-Prompt-toast 힌트"
+  },
+"option_prompts_toast_save_fail":{
+    "message":"저장 실패, 원인:",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_toast_err_text_categories_blank":{
+    "message":"페이지 분류가 없음;",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_PromptCategoriesInputHelpText_blank":{
+    "message":"페이지 분류는 비워 둘 수 없습니다.",
+    "description":"설정-PromptCategoriesInputHelpText"
+  },
+"option_prompts_toast_err_text_language_blank":{
+    "message":"생성 언어가 없음;",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_toast_err_text_content_too_lang":{
+    "message":"prompt 문자 수가 너무 많음;",
+    "description":"설정-Prompt-toast 오류 텍스트"
+  },
+"option_prompts_PromptLanguageInputHelpText_blank":{
+    "message":"생성 언어는 비워 둘 수 없습니다.",
+    "description":"설정-PromptLanguageInputHelpText"
+  },
+"option_prompts_EditPromptContentTextareaHelpText_too_long":{
+    "message":"prompt 문자 수가 너무 길다. 간결하게 작성하십시오.",
+    "description":"설정-prompts-EditPromptHelpText"
+  },
+"option_prompts_EditPromptContentTextareaHelpText_blank":{
+    "message":"prompt는 비워 둘 수 없습니다. prompt를 입력하십시오.",
+    "description":"설정-prompts-EditPromptHelpText"
+  },
+"option_setup_toast_init_error_save_fail":{
+    "message":"로컬 설정이 초기화되지 않았습니다. 저장 실패! 플러그인을 다시 설치해 보십시오.",
+    "description":"설정-설치-toast-힌트"
+  },
+"option_setup_toast_save_base_option_success":{
+    "message":"OpenAI 설정 저장 성공",
+    "description":"설정-설치-toast-힌트"
+  },
+"option_setup_toast_save_base_option_fail":{
+    "message":"저장 실패",
+    "description":"설정-설치-toast-힌트"
+  },
+"option_setup_apiKeyValueInvalidText_invalid_format":{
+    "message":"유효하지 않은 Secret Key",
+    "description":"설정-설치-apikey 텍스트 박스 오류 텍스트 형식 오류"
+  },
+"option_setup_apiKeyValueInvalidText":{
+    "message":"OpenAI Secret Key를 입력하십시오. 그렇지 않으면 플러그인이 제대로 작동하지 않습니다.",
+    "description":"설정-설치-apikey 텍스트 박스 오류 텍스트 기본 값"
+  },
+"option_setup_model_temperature_marks_default_label":{
+    "message":"(기본)",
+    "description":"설정-설치"
+  },
+"notion_oauth_dialog_ok_btn":{
+    "message":"이해했습니다. 인증하러 가기",
+    "description":"인증 대화 상자-확인 버튼"
+  },
+"notion_oauth_dialog_content_policy_link":{
+    "message":"개인정보 보호 정책",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line12":{
+    "message":" 걱정하지 마십시오, 우리는 당신의 다른 정보를 저장하지 않습니다. 자세한 내용은 우리의",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line11":{
+    "message":" Notion 개인 정보 요청은 MuseGPT에서 귀하의 계정을 만드는 데만 사용되며, 향후 더 많은 서비스를 제공하기 위함입니다.",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line10":{
+    "message":"MuseGPT Page는 선택한 페이지 외의 다른 Notion 페이지에 액세스할 수 없습니다. 이 부분에서 Notion의 지침에는 일부 오해가 있습니다.",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line9":{
+    "message":"Notion 인증 상세 안내",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line8":{
+    "message":"더 많은 도움이 필요하면 여기를 클릭하십시오:",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line7":{
+    "message":"이것은 Notion 자체의 제한입니다.",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line6":{
+    "message":"그렇지 않으면 저장할 때 새 표를 만들어 웹 페이지 정보를 저장하며 이전에 인증할 때 만든 표에 저장하지 않습니다.",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line5":{
+    "message":"그리고 다음 옵션에서 이전에 Notion에 저장한 Muse Page Summary 표를 선택합니다.",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line4":{
+    "message":"MuseGPT와 공유할 페이지 선택",
+    "description":"인증 대화 상자-내용"
+  },
+
+  "notion_oauth_dialog_content_line3":{
+    "message":"MuseGPT Page에서 Notion에 이미 인증했다면 인증 페이지에서 다음을 선택하세요:",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line2":{
+    "message":"개발자가 제공하는 템플릿 사용",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_content_line1":{
+    "message":"MuseGPT Page에서 Notion에 처음으로 인증하는 경우 인증 페이지에서 바로 다음을 선택하세요:",
+    "description":"인증 대화 상자-내용"
+  },
+"notion_oauth_dialog_title":{
+    "message":"인증하기 전에 주의하세요",
+    "description":"인증 대화 상자-제목"
+  },
+"panel_fetching_subtitle_btn": {
+    "message": "자막을 가져오는 중, 잠시 기다려주세요",
+    "description": "패널-자막 가져오기 버튼"
+  },
+"panel_summary_prompt_select_default_value": {
+    "message": "기본 Prompt",
+    "description": "패널-prompt 드롭다운"
+  },
+"panel_cancel_btn":{
+    "message":"취소",
+    "description":"패널-취소 버튼"
+  },
+"panel_download_subtitle_srt_hint_fail": {
+    "message": "다운로드할 수 있는 자막이 없습니다. 다운로드 실패, 나중에 다시 시도하세요",
+    "description": "패널-자막 다운로드 힌트"
+  },
+"panel_download_subtitle_srt_hint_success": {
+    "message": "자막 srt 파일 다운로드 완료",
+    "description": "패널-자막 다운로드 힌트"
+  },
+"panel_summary_authz_notion_btn":{
+    "message":"인증..",
+    "description":"Notion 인증"
+  },
+"panel_summary_save_notion_btn":{
+    "message":"저장하기..",
+    "description":"Notion에 저장하기 버튼"
+  },
+"panel_summary_category_select":{
+    "message":"카테고리",
+    "description":"패널, 페이지 카테고리"
+  },
+"panel_summary_byline_input":{
+    "message":"저자",
+    "description":"패널, 저자"
+  },
+"panel_summarizing_unkonwn_error":{
+    "message":"죄송합니다, 요약을 생성하는 중 알 수 없는 오류가 발생했습니다. 다시 시도해 주세요",
+    "description":"요약 생성 중 알 수 없는 오류 알림"
+  },
+"panel_summarizing_error":{
+    "message":"죄송합니다, 요약을 생성하는 중 요청 오류가 발생했습니다. 다시 시도해 주세요",
+    "description":"요약 생성 실패 알림"
+  },
+"panel_edit_summary_state_error":{
+    "message":"이 상태에서는 편집할 수 없습니다",
+    "description":"편집 불가능한 상태 알림"
+  },
+"panel_copyto_clipboar_fail_no_content":{
+    "message":"요약이 비어 있습니다. 클립보드로 복사 실패",
+    "description":"클립보드로 복사 실패 알림"
+  },
+"panel_copyto_clipboar_success":{
+    "message":"요약을 클립보드로 복사 완료",
+    "description":"클립보드로 복사 성공 알림"
+  },
+"panel_copyto_clipboar_signature":{
+    "message":"MuseGPT Page에서의 요약",
+    "description":"패널-복사"
+  },
+"panel_notion_oauth_already_finish":{
+    "message":"인증이 이미 완료되었습니다. Notion에 저장 중",
+    "description":"인증 완료 및 Notion에 저장 중 알림"
+  },
+"panel_save_to_notion_fail_no_content":{
+    "message":"생성된 내용이 없습니다. Notion에 저장 실패, 다시 생성해 보세요",
+    "description":"Notion에 저장 실패, 내용 없음 알림"
+  },
+"panel_save_to_notion_fail_try_reoauth":{
+    "message":"Notion에 저장 실패, 다시 인증해 보세요",
+    "description":"Notion에 저장 실패, 재인증 필요 알림"
+  },
+"panel_save_to_notion_fail_try_again":{
+    "message":"Notion에 저장 실패, 원인:",
+    "description":"Notion에 저장 실패, 백엔드 인터페이스 문제 알림"
+  },
+"panel_save_to_notion_success":{
+    "message":"현재 페이지를 Notion에 성공적으로 저장했습니다",
+    "description":"Notion에 저장 성공 알림"
+  },
+"panel_check_notion_oauth_fetch_error_toast":{
+    "message":"Notion 인증 상태를 가져오는데 실패했습니다. 나중에 다시 시도하세요",
+    "description":"toast 컴포넌트 기본 상태"
+  },
+"panel_default_toast_state_message":{
+    "message":"어떠한 작업도 실행되지 않았습니다",
+    "description":"toast 컴포넌트 기본 상태"
+  },
+"panel_enabled_youtube_popup_toast":{
+    "message":"YouTube 동영상 페이지에서 자동 팝업을 활성화했습니다",
+    "description":"popup-toast"
+  },
+"panel_disabled_youtube_popup_toast":{
+    "message":"YouTube 동영상 페이지에서 자동 팝업을 비활성화했습니다",
+    "description":"popup-toast"
+  },
+"panel_enabled_bilibili_popup_toast":{
+    "message":"Bilibili 동영상 페이지에서 자동 팝업을 활성화했습니다",
+    "description":"popup-toast"
+  },
+"panel_disabled_bilibili_popup_toast":{
+    "message":"Bilibili 동영상 페이지에서 자동 팝업을 비활성화했습니다",
+    "description":"popup-toast"
+  },
+"options_sider_setup":{
+    "message": "설치",
+    "description": "설정-설치"
+  },
+"options_sider_prompts":{
+    "message": "Prompts",
+    "description": "설정-Prompts"
+  },
+"options_sider_general":{
+    "message": "일반",
+    "description": "일반 설정"
+  },
+"options_sider_about":{
+    "message": "정보",
+    "description": "정보 설정"
+  },
+"options_setup_model_dialog_confirm_btn":{
+    "message": "나는 GPT-4를 이해합니다. 계속하기",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_dialog_cancel_btn":{
+    "message": "다시 생각해보겠습니다",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_dialog_content_text1":{
+    "message": "먼저 여러분의 OpenAI Secret Key가 GPT-4를 지원하는지 확인하세요",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_dialog_content_text2":{
+    "message": "그리고 OpenAI의 GPT-4 모델은 높은 비용이 발생할 수 있습니다. 이 플러그인은 GPT-3.5 모델에서 잘 동작한다는 것이 여러 번 테스트되었습니다. 대부분의 경우 GPT-4 모델을 사용할 필요는 없습니다.",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_dialog_content_text3":{
+    "message": "GPT-4 모델 및 그것이 발생시킬 수 있는 높은 비용에 대해 충분한 이해가 없다면 GPT-4 모델을 사용하지 않는 것이 좋습니다.",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_dialog_title":{
+    "message": "GPT-4 모델을 사용하시겠습니까?",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_label_tips":{
+    "message": "사용 모델",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_label":{
+    "message": "사용 모델",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_input_label":{
+    "message": "모델",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_tips_1":{
+    "message": "모델이 너무 긴 웹 페이지 내용을 가질 경우 일부 내용이 잘릴 수 있습니다",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_tips_2":{
+    "message": "인터페이스 지원이 필요하며 높은 비용이 발생할 수 있습니다",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_item_gpt_3_5_turbo_16k":{
+    "message": "gpt-3.5-turbo-16k(추천)",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_item_gpt_3_5_turbo":{
+    "message": "gpt-3.5-turbo",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_item_gpt_4":{
+    "message": "gpt-4",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_select_item_gpt_4_32k":{
+    "message": "gpt-4-32k",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_openai_key":{
+    "message": "OpenAI에서 얻은 Secret Key를 입력하세요",
+    "description": "텍스트 입력 힌트"
+  },
+"options_setup_openai_key_textfield_label":{
+    "message": "Secret Key",
+    "description": "openai key 텍스트 레이블"
+  },
+"options_setup_openai_key_Link_get":{
+    "message": "나의 Secret Key 가져오기",
+    "description": "설정-설치-OpenAi_key-링크-가져오기"
+  },
+"options_setup_openai_key_Link_how":{
+    "message": "어떻게 가져올까요?",
+    "description": "설정-설치-OpenAi_key-링크-가져오기"
+  },
+"options_setup_model_temperature_label":{
+    "message": "온도",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_temperature_label_tips":{
+    "message": "생성 결과에 만족하지 않는 경우 이 값을 변경해보세요",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_temperature_slider_left_label":{
+    "message": "더 정확하게",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_model_temperature_slider_right_label":{
+    "message": "더 창의적으로",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_openai_save_btn":{
+    "message": "저장",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_notion_oauth_h1":{
+    "message": "Notion 인증",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_notion_oauth_btn":{
+    "message": "Notion 인증하기",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_notion_delete_oauth_btn":{
+    "message": "인증 삭제",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_notion_dlete_dialog_content_text":{
+    "message": "현재 완료된 인증을 삭제하시겠습니까? 삭제 후 다시 인증해야 합니다.",
+    "description": "설정-설치-인터페이스"
+  },
+"options_setup_notion_delete_dialog_confirm_btn":{
+    "message": "확인",
+    "description": "설정-설치-인터페이스"
+  },
+  "options_setup_notion_delete_dialog_cancel_btn":{
+    "message": "취소",
+    "description": "설정-설치-인터페이스"
+  },
+  "options_setup_notion_oauth_not_finished":{
+  "message": "현재 Notion 권한이 완료되지 않았습니다",
+  "description": "설정-설치-인터페이스"
+  },
+  "options_setup_notion_oauth_finished":{
+  "message": "Notion 권한 완료",
+  "description": "설정-설치-인터페이스"
+  },
+  "options_general_h1":{
+  "message": "일반 설정",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_label":{
+  "message": "테마 설정",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_label_tips":{
+  "message": "어떤 인터페이스의 오른쪽 상단 전환 스위치를 통해 임시로 변경할 수 있습니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_switch_label":{
+  "message": "시스템을 따르다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_switch_label_tips":{
+  "message": "이 설정은 저장 후에만 적용됩니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_select_input_label":{
+  "message": "이 설정은 저장 후에만 적용됩니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_select_item_light":{
+  "message": "밝은 테마",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_select_item_dark":{
+  "message": "어두운 테마",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_theme_save_btn":{
+  "message": "저장",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle":{
+  "message": "자동 자막 추출",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_tips":{
+  "message": "비디오 페이지의 요약을 추출하기 전에 비디오 자막을 먼저 시도하는지 여부를 제어합니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_option_youtube":{
+  "message": "Youtube 비디오 자막 자동 가져오기",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_option_youtube_tips":{
+  "message": "Youtube 비디오 요약을 생성하기 전에 자막을 자동으로 가져오려고 시도합니다. 페이지 요약 시간이 약간 늘어날 수 있습니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_option_bilibili":{
+  "message": "Bilibili 비디오 자막 자동 가져오기",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_option_bilibili_tips":{
+  "message": "Bilibili 비디오 요약을 생성하기 전에 자막을 자동으로 가져오려고 시도합니다. 페이지 요약 시간이 약간 늘어날 수 있습니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_subtitle_option_save_success":{
+  "message": "자동 자막 추출 설정 저장 성공",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_label":{
+  "message": "자동 팝업",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_label_tips":{
+  "message": "특정 페이지에서 패널을 자동으로 팝업하고 요약을 추출할지 여부를 제어합니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_youtube_label":{
+  "message": "Youtube 비디오 페이지",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_youtube_label_tips":{
+  "message": "Youtube의 비디오 재생 페이지에서 자동으로 팝업합니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_bilibili_label":{
+  "message": "Bilibili 비디오 페이지",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_bilibili_label_tips":{
+  "message": "Bilibili의 비디오 재생 페이지에서 자동으로 팝업합니다",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_general_auto_popup_option_save_success":{
+  "message": "자동 팝업 설정 저장 성공",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_about_h1":{
+  "message": "MuseGPT Page 정보",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_about_version_label":{
+  "message": "버전 번호",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_about_changelog_label":{
+  "message": "변경 로그",
+  "description": "설정-일반-인터페이스"
+  },
+  "options_about_changelog_link_label":{
+  "message": "GitHub 페이지",
+  "description": "설정-일반-인터페이스"
+  },
+  "wizard_toast_save_secret_key":{
+  "message": "Secret Key 저장 성공!",
+  "description": "마법사-toast"
+  },
+  "wizard_toast_invalid_key":{
+  "message": "잘못된 Secret Key",
+  "description": "마법사-toast"
+  },
+  "wizard_welcome_title":{
+  "message": "MuseGPT Page 사용을 환영합니다",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_welcome_tips1":{
+  "message": "단지",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_welcome_tips2":{
+  "message": "두 단계",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_welcome_tips3":{
+  "message": "이제 바로 MuseGPT Page를 사용할 수 있습니다!",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_first_step_label1":{
+  "message": "첫 번째 단계, 클릭",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_first_step_link_label":{
+  "message": "이 링크",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_first_step_label2":{
+  "message": "OpenAI에서 가져온 OpenAI Secret key를 여기에 입력하십시오",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_seccend_step_label":{
+  "message": "두 번째 단계, Notion 페이지에서 계정에 로그인하고 MuseGPT에 페이지 내용을 저장할 수 있도록 권한을 부여하십시오",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_notion_oauth_btn":{
+  "message": "Notion 권한 부여",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_notion_not_now_oauth_btn":{
+  "message": "지금 Notion 권한을 부여하고 싶지 않습니다",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_notion_finished_oauth":{
+  "message": "Notion 권한 부여 완료",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_notion_not_finish_oauth":{
+  "message": "현재 Notion 권한이 완료되지 않았습니다",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_congratulations_finish_text1":{
+  "message": "🎉 축하합니다, MuseGPT Page 설정을 완료했습니다!",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_congratulations_finish_text2":{
+  "message": "이제 어떤 페이지에서든지 MuseGPT Page를 바로 사용할 수 있습니다!",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_congratulations_finish_how_to_use_text1":{
+  "message": "다음과 같이 사용하십시오 👇",
+  "description": "마법사-인터페이스"
+  },
+  "wizard_congratulations_finish_how_to_use_text2":{
+  "message": "또는 어떤 페이지에서든 직접 키보드 단축키를 누르십시오:",
+  "description": "마법사-인터페이스"
+  },
+"wizard_close_page_btn": {
+    "message": "페이지 닫기",
+    "description": "마법사-인터페이스"
+  },
+  "wizard_redirect_to_option": {
+    "message": "설정으로 이동",
+    "description": "마법사-인터페이스"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text1": {
+    "message": "Notion에 권한을 부여하지 않으면 Notion에 저장 기능을 사용할 수 없습니다. 나중에 필요할 때 권한을 부여할 수 있습니다",
+    "description": "마법사-인터페이스"
+  },
+  "wizard_not_now_notion_oauth_dialog_content_text2": {
+    "message": "지금 Notion에 권한을 부여하지 않으시겠습니까?",
+    "description": "지금 Notion에 권한을 부여하지 않으시겠습니까?"
+  },
+  "wizard_not_now_notion_oauth_dialog_confirm_btn": {
+    "message": "확인",
+    "description": "마법사-인터페이스"
+  },
+  "wizard_not_now_notion_oauth_dialog_cancel_btn": {
+    "message": "취소",
+    "description": "마법사-인터페이스"
+  },
+  "config_MAINPROMPT": {
+    "message": "현재 정보에서 어떤 웹사이트와 페이지인지 추론하고, 주요 내용은 무엇인지 {lan} 언어로 간단하게 요약하십시오. 페이지에 튜토리얼이나 방법 단계가 포함되어 있다면, 다음으로 {lan} 언어로 이 방법의 주요 단계를 명확하게 나열하십시오. 그렇지 않다면 페이지의 중요한 내용을 분석하고, {lan} 언어로 항목 기호로 나열하십시오. 문제만 나열하지 말고, 문제의 답을 제공하십시오. 주제와 관련된 페이지의 중요한 내용을 놓치지 마십시오. 다음으로, 사용자의 의견이 있으면 항목 기호로 사용자 의견의 요약과 분석을 나열하십시오. 모든 답변은 {lan} 언어로만 허용됩니다.",
+    "description": "초기 설정"
+  },
+  "config_PROMPT_SUFFIX": {
+    "message": "마지막으로, '{category}'에서 현재 페이지의 유형을 선택하고 [유형] 형식으로 종료하십시오. 페이지 유형에 대한 다른 설명은 포함하지 마십시오. 예: [음악]",
+    "description": "초기 설정"
+  },
+  "config_prompt_item1_name": {
+    "message": "bilibili 비디오 요약",
+    "description": "초기 설정"
+  },
+  "config_prompt_item1_content": {
+    "message": "웹 페이지 요약기로서, {lan} 언어로 비디오의 주제에 대해 간단하게 설명하고, \"이 비디오/페이지는 ... 관련\"으로 시작합니다. 그리고 현재 페이지나 비디오의 주요 내용을 추론하고, 마크다운 형식으로 다음 단계를 완료합니다:\n### 주요 내용\nbilibili 비디오 내용과 사용자의 특징을 결합하여, {lan} 언어로 비디오의 주요 정보를 항목으로 나열합니다. 비디오 자막이 제공되면 주로 자막 내용을 기반으로 비디오의 주요 내용을 요약합니다. 비디오 재생 데이터를 나열하는 것은 금지되며, 문제만 나열하지 않고 비디오에서 문제의 답을 제공합니다. 비디오와 관련 없는 내용은 무시합니다.\n### 흥미로운 시간\n비디오 자막 내용이 있으면, {lan} 언어로 자막을 기반으로 비디오에서 가장 흥미로운 세 가지 시간과 내용을 나열합니다.\n### 사용자 의견\n사용자의 의견이 있다면, {lan} 언어로 사용자의 흥미로운 의견을 요약합니다.\n위의 모든 응답은 오직 {lan} 언어로만 허용되며, 다른 언어는 허용되지 않습니다. 결론만 응답하고 설명하지 마십시오.",
+    "description": "초기 설정"
+  },
+  "config_prompt_item2_name": {
+    "message": "youtube 비디오 요약",
+    "description": "초기 설정"
+  },
+  "config_prompt_item2_content": {
+    "message": "웹 페이지 요약기로서, {lan} 언어로 비디오의 주제에 대해 간단하게 설명하고, \"이 비디오/페이지는 ... 관련\"으로 시작합니다. 그리고 현재 페이지나 비디오의 주요 내용을 추론하고, 마크다운 형식으로 다음 단계를 완료합니다:\n### 주요 내용\nyoutube 비디오 내용과 사용자의 특징을 결합하여, {lan} 언어로 비디오의 주요 정보를 항목으로 나열합니다. 비디오 자막이 제공되면 주로 자막 내용을 기반으로 비디오의 주요 내용을 요약합니다. 비디오 재생 데이터를 나열하는 것은 금지되며, 문제만 나열하지 않고 비디오에서 문제의 답을 제공합니다. 비디오와 관련 없는 내용은 무시합니다.\n### 흥미로운 시간\n비디오 자막 내용이 있으면, {lan} 언어로 자막을 기반으로 비디오에서 가장 흥미로운 세 가지 시간과 내용을 나열합니다.\n### 사용자 의견\n사용자의 의견이 있다면, {lan} 언어로 사용자의 흥미로운 의견을 요약합니다.\n위의 모든 응답은 오직 {lan} 언어로만 허용되며, 다른 언어는 허용되지 않습니다. 결론만 응답하고 설명하지 마십시오.",
+    "description": "초기 설정"
+  },
+  "config_prompt_item3_name": {
+    "message": "github 프로젝트 요약",
+    "description": "초기 설정"
+  },
+  "config_prompt_item3_content": {
+    "message": "현재 github 프로젝트가 주로 무엇을 위한 것인지 추론하고, 몇 마디로 {lan} 언어로 이에 대해 간략하게 설명합니다. 현재 페이지의 내용에 프로젝트의 설치 가이드나 방법, 또는 설치 주의 사항이 포함되어 있다면, 이러한 방법의 주요 단계를 {lan} 언어로 이해하기 쉽게 나열합니다. 그런 다음 프로젝트에서 주의해야 할 점을 분석하고 {lan} 언어로 항목의 형식으로 나열합니다. 프로젝트 주제와 관련된 페이지의 주요 내용을 누락하지 마십시오.",
+    "description": "초기 설정"
+  },
+  "config_categorie_social_media": {
+    "message": "소셜 미디어",
+    "description": "초기 설정"
+  },
+  "config_categorie_news": {
+    "message": "뉴스",
+    "description": "초기 설정"
+  },
+  "config_categorie_e_commerce": {
+    "message": "전자 상거래",
+    "description": "초기 설정"
+  },
+  "config_categorie_entertainment": {
+    "message": "엔터테인먼트",
+    "description": "초기 설정"
+  },
+  "config_categorie_education": {
+    "message": "교육",
+    "description": "초기 설정"
+  },
+  "config_categorie_search_engine": {
+    "message": "검색 엔진",
+    "description": "초기 설정"
+  },
+  "config_categorie_email": {
+    "message": "이메일",
+    "description": "초기 설정"
+  },
+  "config_categorie_weather": {
+    "message": "날씨",
+    "description": "초기 설정"
+  },
+  "config_categorie_developer": {
+    "message": "개발자",
+    "description": "초기 설정"
+  },
+  "config_categorie_streaming": {
+    "message": "스트리밍",
+    "description": "초기 설정"
+  },
+  "config_categorie_ai": {
+    "message": "AI",
+    "description": "초기 설정"
+  },
+  "config_categorie_adult": {
+    "message": "성인 콘텐츠",
+    "description": "초기 설정"
+  },
+  "config_categorie_video_games": {
+    "message": "비디오 게임",
+    "description": "초기 설정"
+  },
+  "config_categorie_professional_networking": {
+    "message": "전문 네트워킹",
+    "description": "초기 설정"
+  },
+  "config_categorie_fitness": {
+    "message": "피트니스",
+    "description": "초기 설정"
+  },
+  "config_categorie_health": {
+    "message": "건강",
+    "description": "초기 설정"
+  },
+  "config_categorie_finance": {
+    "message": "금융",
+    "description": "초기 설정"
+  },
+  "config_categorie_travel": {
+    "message": "여행",
+    "description": "초기 설정"
+  },
+  "config_categorie_sports": {
+    "message": "스포츠",
+    "description": "초기 설정"
+  },
+  "config_categorie_food": {
+    "message": "음식",
+    "description": "초기 설정"
+  },
+  "config_categorie_cooking": {
+    "message": "요리",
+    "description": "초기 설정"
+  },
+  "config_categorie_job_search": {
+    "message": "구직",
+    "description": "초기 설정"
+  },
+  "config_categorie_real_estate": {
+    "message": "부동산",
+    "description": "초기 설정"
+  },
+  "config_categorie_music": {
+    "message": "음악",
+    "description": "초기 설정"
+  },
+  "config_categorie_photography": {
+    "message": "사진",
+    "description": "초기 설정"
+  },
+  "config_categorie_science": {
+    "message": "과학",
+    "description": "초기 설정"
+  },
+  "config_categorie_politics": {
+    "message": "정치",
+    "description": "초기 설정"
+  },
+  "config_categorie_current_affairs": {
+    "message": "시사",
+    "description": "초기 설정"
+  },
+  "config_categorie_technology": {
+    "message": "기술",
+    "description": "초기 설정"
+  },
+  "config_categorie_digital": {
+    "message": "디지털",
+    "description": "초기 설정"
+  },
+  "config_categorie_crypto": {
+    "message": "암호화폐",
+    "description": "초기 설정"
+  },
+  "config_categorie_make_money": {
+    "message": "돈 벌기",
+    "description": "초기 설정"
+  },
+  "config_categorie_short_video": {
+    "message": "짧은 비디오",
+    "description": "초기 설정"
+  },
+  "config_categorie_save_money": {
+    "message": "돈 절약",
+    "description": "초기 설정"
+  },
+  "config_categorie_art": {
+    "message": "예술",
+    "description": "초기 설정"
+  },
+  "config_categorie_renting": {
+    "message": "임대",
+    "description": "초기 설정"
+  },
+  "config_categorie_other": {
+    "message": "기타",
+    "description": "초기 설정"
+  }
+}
