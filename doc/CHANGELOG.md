@@ -5,8 +5,30 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+-
+
+### Fixed
+- shadow dom 使用svg在某些站点导致冲突(待完成)
+
+### Changed
+-
+
+## [1.0.2] - 2023-8-7
+
+### Added
+- Added Korean language support.
+- Added GIF demonstration on how to use the method to the wizard page.
+
+### Fixed
+- Fixed conflicts with shadow DOM when using SVG on certain websites (work in progress).
+- Fixed formatting errors when copying content from the pop-up panel.
+
+### Changed
+- Removed the fireworks effect from the navigation page.
+
+### Added
 - 增加韩文支持
-- 使用向导页增如何加使用的方法提示
+- 向导页增加何加使用的gif演示
 
 ### Fixed
 - shadow dom 使用svg在某些站点导致冲突(待完成)
