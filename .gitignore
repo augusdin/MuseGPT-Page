@@ -18,6 +18,7 @@ utils/reload/injections/*.js
 public/manifest.json
 
 # Not open-sourced for now
+/.VSCodeCounter
 /src
 /test-utils
 /utils
